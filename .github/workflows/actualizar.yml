@@ -1,0 +1,32 @@
+name: Actualizar Araba
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - run: node scripts/actualizar_araba.mjs
+
+      - name: Guardar datos nuevos
+        run: |
+          git add web_empleo.sqlite data/convocatorias.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Actualizar boletín de Araba"
+          git push
