@@ -136,7 +136,7 @@ try {
 
   ejecutar('curl', [
     '-fsSL',
-    '--max-time', '45',
+    '--max-time', '120',
     '--max-filesize', '100000000',
     '--cacert', certificados,
     '-o', pdf,
