@@ -25,8 +25,9 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Leer boletines 1, 2, 3 y 183
-        run: curl -I --max-time 20 https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/01/BOB-2026a001.pdf
-
+        run: |
+          openssl s_client -connect www.bizkaia.eus:443 -servername www.bizkaia.eus -showcerts </dev/null 2>/dev/null |
+          openssl x509 -noout -issuer -ext authorityInfoAccess
       - name: Guardar base de datos
         run: |
           git add web_empleo.sqlite
