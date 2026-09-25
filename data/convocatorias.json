@@ -1,27 +1,4 @@
 {
   "fecha": "2026-09-25",
-  "convocatorias": [
-    {
-      "provincia": "Bizkaia",
-      "lugar": "Ayuntamiento de Santurtzi",
-      "titulo": "1 plaza de Profesor/a de Música en la Escuela Municipal de Música de Santurtzi en la especialidad de Txistu",
-      "sistema": "concurso-oposición",
-      "tasas": "25,00 €",
-      "plazo": "El plazo de presentación de solicitudes será de veinte días hábiles, contados a partir del siguiente al de la publicación del anuncio de la correspondiente convocatoria en el «Boletín Oficial del Estado».",
-      "boletin": 184,
-      "fecha": "2026-09-25",
-      "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/BOB-2026a184.pdf#page=170"
-    },
-    {
-      "provincia": "Bizkaia",
-      "lugar": "Ayuntamiento de Santurtzi",
-      "titulo": "1 plaza de Profesor/a de Euskera",
-      "sistema": "concurso-oposición",
-      "tasas": "25,00 €",
-      "plazo": "El plazo de presentación de solicitudes será de veinte días hábiles, contados a partir del siguiente al de la publicación del anuncio de la correspondiente convocatoria en el «Boletín Oficial del Estado».",
-      "boletin": 184,
-      "fecha": "2026-09-25",
-      "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/2026/09/BOB-2026a184.pdf#page=188"
-    }
-  ]
+  "convocatorias": []
 }
