@@ -26,8 +26,10 @@ jobs:
 
       - name: Leer boletines 1, 2, 3 y 183
         run: |
-          openssl s_client -connect www.bizkaia.eus:443 -servername www.bizkaia.eus -showcerts </dev/null 2>/dev/null |
-          openssl x509 -noout -issuer -ext authorityInfoAccess
+          curl -fsSL https://crt.sectigo.com/IzenpeRSAOVSSLCA.crt -o /tmp/izenpe.crt
+          openssl x509 -inform DER -in /tmp/izenpe.crt -out /tmp/izenpe.pem
+          openssl verify -CAfile /etc/ssl/certs/ca-certificates.crt /tmp/izenpe.pem
+          NODE_EXTRA_CA_CERTS=/tmp/izenpe.pem node scripts/leer_bizkaia.mjs
       - name: Guardar base de datos
         run: |
           git add web_empleo.sqlite
