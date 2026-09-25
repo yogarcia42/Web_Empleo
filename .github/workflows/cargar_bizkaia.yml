@@ -25,14 +25,11 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Leer boletines 1, 2, 3 y 183
-        run: |
-          curl -fsSL https://crt.sectigo.com/IzenpeRSAOVSSLCA.crt -o /tmp/izenpe.crt
-          openssl x509 -inform DER -in /tmp/izenpe.crt -out /tmp/izenpe.pem
-          openssl verify -CAfile /etc/ssl/certs/ca-certificates.crt /tmp/izenpe.pem
-          NODE_EXTRA_CA_CERTS=/tmp/izenpe.pem node scripts/leer_bizkaia.mjs
+        run: node scripts/leer_bizkaia.mjs
+        
       - name: Guardar base de datos
         run: |
-          git add web_empleo.sqlite
+          git add web_empleo.sqlite data/convocatorias.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
