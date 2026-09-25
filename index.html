@@ -1,9 +1,183 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Convocatorias de Empleo</title><style>
-:root{font-family:Arial,Helvetica,sans-serif;color:#46372b;background:#f5efe5}*{box-sizing:border-box}body{margin:0}.page{max-width:880px;margin:auto;padding:14px 20px 35px}h1{font:700 1.4rem Georgia,serif;margin:0 0 8px}.tabs{display:flex;align-items:center;gap:26px;border-bottom:1px solid #bdac96;padding-bottom:6px}.tabs button{padding:3px 0;border:0;background:none;color:#695749;font:700 .98rem Arial,sans-serif;cursor:pointer}.tabs button[aria-selected=true]{color:#493022;border-bottom:2px solid #886143}.tabs button:focus-visible,a:focus-visible{outline:2px solid #805b40;outline-offset:3px}h2{font:700 1.1rem Georgia,serif;margin:12px 0 5px}h3{font-size:.87rem;color:#6b503b;margin:8px 0 3px}.province{margin:0;padding:3px 0;font-size:.94rem;line-height:1.35}.province strong{font-weight:750}.badge{color:#867566;margin-left:10px;font-size:.86rem}.offer{margin:1px 0 5px 13px}.offer a{color:#745039}.notice{font-size:.9rem;color:#806b5a;margin:8px 0}.spacer{height:3px}@media(max-width:620px){.page{padding:13px 14px}.tabs{justify-content:space-between;gap:12px}.tabs button{font-size:.9rem;text-align:left}}
-</style></head><body><main class="page"><h1>Convocatorias de Empleo</h1><nav class="tabs" aria-label="Vistas"><button id="hoy" type="button" aria-selected="true">Hoy <span id="fecha"></span></button><button id="plazo" type="button" aria-selected="false">Convocatorias en plazo</button></nav><p class="notice" id="estado" role="status"></p><div id="principal"><h2>NACIONAL</h2><div class="spacer"></div><h2>CCAA</h2><div class="spacer"></div><h2>LOCAL</h2><div id="local"></div></div></main><script>
-const fecha=new Intl.DateTimeFormat('es-ES',{timeZone:'Europe/Madrid',day:'2-digit',month:'2-digit',year:'numeric'}).format(new Date());document.querySelector('#fecha').textContent=fecha;
-const hoy=document.querySelector('#hoy'),plazo=document.querySelector('#plazo'),principal=document.querySelector('#principal'),estado=document.querySelector('#estado');
-plazo.addEventListener('click',()=>{hoy.setAttribute('aria-selected','false');plazo.setAttribute('aria-selected','true');principal.hidden=true;estado.textContent='En desarrollo';});
-hoy.addEventListener('click',()=>{hoy.setAttribute('aria-selected','true');plazo.setAttribute('aria-selected','false');principal.hidden=false;estado.textContent='';});
-(async()=>{try{const [p,c]=await Promise.all([fetch('data/provincias.json'),fetch('data/convocatorias.json')]);if(!p.ok||!c.ok)throw Error('No se pudieron leer los datos');const provincias=await p.json(),datos=await c.json();const local=document.querySelector('#local');for(const convocatoria of datos.convocatorias||[]){const row=document.createElement('div');row.className='province';const strong=document.createElement('strong');strong.textContent=convocatoria.provincia+' · '+convocatoria.lugar;row.append(strong);const details=document.createElement('div');details.className='offer';details.textContent=convocatoria.titulo+' ';const a=document.createElement('a');a.href=convocatoria.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Sumario ↗';details.append(a);row.append(details);local.append(row);}for(const name of provincias){const row=document.createElement('div');row.className='province';const strong=document.createElement('strong');strong.textContent=name;const badge=document.createElement('span');badge.className='badge';badge.textContent='en desarrollo';row.append(strong,badge);local.append(row);}}catch(e){estado.textContent='No se pudieron cargar las convocatorias.';}})();
-</script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Convocatorias de Empleo</title>
+  <style>
+    :root{font-family:Arial,Helvetica,sans-serif;color:#46372b;background:#f5efe5}
+    *{box-sizing:border-box}
+    body{margin:0}
+    .page{max-width:880px;margin:auto;padding:14px 20px 35px}
+    h1{font:700 1.4rem Georgia,serif;margin:0 0 8px}
+    .tabs{display:flex;align-items:center;gap:26px;border-bottom:1px solid #bdac96;padding-bottom:6px}
+    .tabs button{padding:3px 0;border:0;background:none;color:#695749;font:700 .98rem Arial,sans-serif;cursor:pointer}
+    .tabs button[aria-selected=true]{color:#493022;border-bottom:2px solid #886143}
+    .tabs button:focus-visible,a:focus-visible{outline:2px solid #805b40;outline-offset:3px}
+    h2{font:700 1.1rem Georgia,serif;margin:12px 0 5px}
+    .province{margin:0;padding:3px 0;font-size:.94rem;line-height:1.35}
+    .province strong{font-weight:750}
+    .badge{color:#867566;margin-left:10px;font-size:.86rem}
+    .offer{margin:2px 0 5px 13px}
+    .offer a{color:#745039}
+    .meta{color:#695749;font-size:.87rem;margin:2px 0}
+    .notice{font-size:.9rem;color:#806b5a;margin:8px 0}
+    .spacer{height:3px}
+    @media(max-width:620px){
+      .page{padding:13px 14px}
+      .tabs{justify-content:space-between;gap:12px}
+      .tabs button{font-size:.9rem;text-align:left}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Convocatorias de Empleo</h1>
+    <nav class="tabs" aria-label="Vistas">
+      <button id="hoy" type="button" aria-selected="true">
+        Hoy <span id="fecha"></span>
+      </button>
+      <button id="plazo" type="button" aria-selected="false">
+        Convocatorias en plazo
+      </button>
+    </nav>
+    <p class="notice" id="estado" role="status"></p>
+    <div id="principal">
+      <h2>NACIONAL</h2><div class="spacer"></div>
+      <h2>CCAA</h2><div class="spacer"></div>
+      <h2>LOCAL</h2><div id="local"></div>
+    </div>
+  </main>
+
+  <script>
+    const ahora = new Date();
+    const fecha = new Intl.DateTimeFormat('es-ES', {
+      timeZone: 'Europe/Madrid',
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    }).format(ahora);
+    const fechaISO = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Madrid',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).format(ahora);
+
+    document.querySelector('#fecha').textContent = fecha;
+
+    const hoy = document.querySelector('#hoy');
+    const plazo = document.querySelector('#plazo');
+    const principal = document.querySelector('#principal');
+    const estado = document.querySelector('#estado');
+
+    plazo.addEventListener('click', () => {
+      hoy.setAttribute('aria-selected', 'false');
+      plazo.setAttribute('aria-selected', 'true');
+      principal.hidden = true;
+      estado.textContent = 'En desarrollo';
+    });
+
+    hoy.addEventListener('click', () => {
+      hoy.setAttribute('aria-selected', 'true');
+      plazo.setAttribute('aria-selected', 'false');
+      principal.hidden = false;
+      estado.textContent = '';
+    });
+
+    (async () => {
+      try {
+        const [respuestaProvincias, respuestaConvocatorias] =
+          await Promise.all([
+            fetch('data/provincias.json'),
+            fetch('data/convocatorias.json')
+          ]);
+
+        if (!respuestaProvincias.ok || !respuestaConvocatorias.ok) {
+          throw Error('No se pudieron leer los datos');
+        }
+
+        const provincias = await respuestaProvincias.json();
+        const datos = await respuestaConvocatorias.json();
+        const ofertas = datos.fecha === fechaISO
+          ? datos.convocatorias || []
+          : [];
+
+        const activas = new Set(['Araba/Álava', 'Bizkaia']);
+        const nombres = [...new Set(['Araba/Álava', ...provincias])]
+          .sort(new Intl.Collator('es', {
+            sensitivity: 'base'
+          }).compare);
+
+        const local = document.querySelector('#local');
+
+        for (const nombre of nombres) {
+          const fila = document.createElement('div');
+          fila.className = 'province';
+
+          const titulo = document.createElement('strong');
+          titulo.textContent = nombre;
+          fila.append(titulo);
+
+          const deProvincia = ofertas.filter(
+            oferta => oferta.provincia === nombre
+          );
+
+          if (!deProvincia.length) {
+            const etiqueta = document.createElement('span');
+            etiqueta.className = 'badge';
+
+            etiqueta.textContent = activas.has(nombre)
+              ? (datos.fecha === fechaISO
+                  ? 'Sin novedades'
+                  : 'Pendiente de actualización')
+              : 'en desarrollo';
+
+            fila.append(etiqueta);
+          }
+
+          for (const oferta of deProvincia) {
+            const detalle = document.createElement('div');
+            detalle.className = 'offer';
+
+            const lugar = document.createElement('strong');
+            lugar.textContent = oferta.lugar + ': ';
+            detalle.append(
+              lugar,
+              document.createTextNode(oferta.titulo + ' ')
+            );
+
+            const enlace = document.createElement('a');
+            enlace.href = oferta.url;
+            enlace.target = '_blank';
+            enlace.rel = 'noopener noreferrer';
+            enlace.textContent = 'Ver boletín ↗';
+            detalle.append(enlace);
+
+            const metadatos = [
+              oferta.sistema,
+              oferta.tasas,
+              oferta.plazo
+            ].filter(Boolean);
+
+            if (metadatos.length) {
+              const meta = document.createElement('div');
+              meta.className = 'meta';
+              meta.textContent = metadatos.join(' · ');
+              detalle.append(meta);
+            }
+
+            fila.append(detalle);
+          }
+
+          local.append(fila);
+        }
+      } catch (error) {
+        estado.textContent =
+          'No se pudieron cargar las convocatorias.';
+      }
+    })();
+  </script>
+</body>
+</html>
