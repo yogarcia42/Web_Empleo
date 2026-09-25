@@ -25,7 +25,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Leer boletines 1, 2, 3 y 183
-        run: node scripts/leer_bizkaia.mjs
+        run: node --use-system-ca scripts/leer_bizkaia.mjs
 
       - name: Guardar base de datos
         run: |
