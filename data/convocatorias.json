@@ -1,4 +1,29 @@
 {
   "fecha": "2026-09-25",
-  "convocatorias": []
+  "convocatorias": [
+    {
+      "provincia": "Bizkaia",
+      "lugar": "Ayuntamiento de Arrigorriaga",
+      "titulo": "Convocatoria y bases para la asignación de los puestos de la feria agricola del 18 de octubre. BOB-2026a184-(II-4919) Ayuntamiento de Barakaldo",
+      "boletin": 184,
+      "fecha": "2026-09-25",
+      "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/2026/09/BOB-2026a184s.pdf"
+    },
+    {
+      "provincia": "Bizkaia",
+      "lugar": "Ayuntamiento de Santurtzi",
+      "titulo": "Bases de convocatoria de pruebas selectivas para el acceso a la categoría de personal labo- BOB-2026a184-(II-4983) ral, en una plaza de la escala de profesor, grupo A2, del Ayuntamiento de Santurtzi, Oferta de",
+      "boletin": 184,
+      "fecha": "2026-09-25",
+      "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/2026/09/BOB-2026a184s.pdf"
+    },
+    {
+      "provincia": "Bizkaia",
+      "lugar": "Ayuntamiento de Santurtzi",
+      "titulo": "Bases de convocatoria de pruebas selectivas para el acceso a la categoría de personal labo- BOB-2026a184-(II-4987) ral, en una (1) plaza de la escala de Profesor, grupo A2, del Ayuntamiento de Santurtzi, OEP",
+      "boletin": 184,
+      "fecha": "2026-09-25",
+      "url": "https://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/2026/09/BOB-2026a184s.pdf"
+    }
+  ]
 }
