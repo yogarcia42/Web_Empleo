@@ -104,8 +104,8 @@ try {
   const codigo = String(numero).padStart(3, '0');
 
   const url =
-    `https://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/` +
-    `${anio}/${mes}/BOB-${anio}a${codigo}s.pdf`;
+  `https://www.bizkaia.eus/lehendakaritza/Bao_bob/` +
+  `${anio}/${mes}/BOB-${anio}a${codigo}.pdf`;
 
   console.log(`URL construida para el sumario ${numero}: ${url}`);
 
