@@ -1,0 +1,37 @@
+name: Carga inicial Bizkaia
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: web-empleo
+  cancel-in-progress: false
+
+jobs:
+  cargar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Instalar lector de PDF
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Leer boletines 1, 2, 3 y 183
+        run: node scripts/leer_bizkaia.mjs
+
+      - name: Guardar base de datos
+        run: |
+          git add web_empleo.sqlite
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Añadir boletines iniciales de Bizkaia"
+          git push
