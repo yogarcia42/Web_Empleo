@@ -1,130 +1,285 @@
 import { DatabaseSync } from 'node:sqlite';
 import { spawnSync } from 'node:child_process';
+import {
+  readFileSync, writeFileSync, mkdtempSync, rmSync
+} from 'node:fs';
+import { tmpdir } from 'node:os';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { get } from 'node:http';
 
-const db = new DatabaseSync(
-  new URL('../web_empleo.sqlite', import.meta.url)
-);
+const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
+const db = new DatabaseSync(join(raiz, 'web_empleo.sqlite'));
+const temporal = mkdtempSync(join(tmpdir(), 'web-empleo-bizkaia-'));
 
 const meses = {
-  enero: '01', febrero: '02', marzo: '03',
-  abril: '04', mayo: '05', junio: '06',
-  julio: '07', agosto: '08', septiembre: '09',
-  octubre: '10', noviembre: '11', diciembre: '12'
+  enero: '01', febrero: '02', marzo: '03', abril: '04',
+  mayo: '05', junio: '06', julio: '07', agosto: '08',
+  septiembre: '09', octubre: '10',
+  noviembre: '11', diciembre: '12'
 };
 
-const boletines = [
-  { numero: 1, mes: '01' },
-  { numero: 2, mes: '01' },
-  { numero: 3, mes: '01' },
-  { numero: 183, mes: '09' }
-];
+function ejecutar(comando, argumentos) {
+  const resultado = spawnSync(comando, argumentos, {
+    encoding: 'utf8',
+    maxBuffer: 10_000_000
+  });
 
-const pendientes = [];
+  if (resultado.error || resultado.status !== 0) {
+    throw new Error(
+      `${comando}: ${resultado.error?.message || resultado.stderr}`
+    );
+  }
 
-try {
-  for (const { numero, mes } of boletines) {
-    const existe = db.prepare(`
-      SELECT numero FROM bizkaia
-      WHERE numero = ? AND substr(fecha, 1, 4) = '2026'
-    `).get(numero);
+  return resultado.stdout;
+}
 
-    if (existe) {
-      console.log(`Boletín ${numero}: ya está guardado.`);
-      continue;
-    }
+// Bizkaia omite un certificado intermedio. Lo obtenemos de la
+// dirección anunciada por su certificado y lo verificamos con Ubuntu.
+function descargarIntermedia(destino) {
+  return new Promise((resolve, reject) => {
+    const peticion = get(
+      'http://crt.sectigo.com/IzenpeRSAOVSSLCA.crt',
+      { timeout: 20000 },
+      respuesta => {
+        if (respuesta.statusCode !== 200) {
+          respuesta.resume();
+          reject(new Error(
+            `Certificado intermedio: HTTP ${respuesta.statusCode}`
+          ));
+          return;
+        }
 
-    const codigo = String(numero).padStart(3, '0');
-    const url =
-      `https://www.bizkaia.eus/lehendakaritza/Bao_bob/` +
-      `2026/${mes}/BOB-2026a${codigo}.pdf`;
+        const partes = [];
+        let longitud = 0;
 
-    console.log(`URL construida: ${url}`);
+        respuesta.on('data', parte => {
+          longitud += parte.length;
 
-    const respuesta = await fetch(url, {
-      signal: AbortSignal.timeout(60000)
-    });
+          if (longitud > 200_000) {
+            respuesta.destroy(new Error(
+              'Certificado intermedio demasiado grande'
+            ));
+          } else {
+            partes.push(parte);
+          }
+        });
 
-    if (!respuesta.ok) {
-      throw new Error(`Boletín ${numero}: HTTP ${respuesta.status}`);
-    }
+        respuesta.on('error', reject);
 
-    const pdf = Buffer.from(await respuesta.arrayBuffer());
+        respuesta.on('end', () => {
+          if (!longitud) {
+            reject(new Error('Certificado intermedio vacío'));
+            return;
+          }
 
-    if (
-      pdf.length > 100_000_000 ||
-      pdf.subarray(0, 5).toString() !== '%PDF-'
-    ) {
-      throw new Error(`Boletín ${numero}: PDF inválido o demasiado grande.`);
-    }
-
-    const lectura = spawnSync(
-      'pdftotext',
-      ['-f', '1', '-l', '1', '-layout', '-', '-'],
-      {
-        input: pdf,
-        encoding: 'utf8',
-        maxBuffer: 5_000_000
+          writeFileSync(destino, Buffer.concat(partes));
+          resolve();
+        });
       }
     );
 
-    if (lectura.error || lectura.status !== 0) {
-      throw new Error(
-        `No se pudo leer el PDF ${numero}: ` +
-        (lectura.error?.message || lectura.stderr)
-      );
+    peticion.on('timeout', () => {
+      peticion.destroy(new Error('Tiempo agotado'));
+    });
+    peticion.on('error', reject);
+  });
+}
+
+try {
+  const ultimo = db.prepare(`
+    SELECT numero, fecha
+    FROM bizkaia
+    ORDER BY fecha DESC, numero DESC
+    LIMIT 1
+  `).get();
+
+  if (!ultimo) {
+    throw new Error('Bizkaia necesita un boletín anterior en la base');
+  }
+
+  const anio = ultimo.fecha.slice(0, 4);
+  const numero = ultimo.numero + 1;
+  const mes = ultimo.fecha.slice(5, 7);
+  const codigo = String(numero).padStart(3, '0');
+
+  const url =
+    `https://www.bizkaia.eus/lehendakaritza/Bao_bob/Sumario/` +
+    `${anio}/${mes}/BOB-${anio}a${codigo}s.pdf`;
+
+  console.log(`URL construida para el sumario ${numero}: ${url}`);
+
+  const der = join(temporal, 'izenpe.crt');
+  const pem = join(temporal, 'izenpe.pem');
+  const certificados = join(temporal, 'certificados.pem');
+  const pdf = join(temporal, 'sumario.pdf');
+
+  await descargarIntermedia(der);
+
+  ejecutar('openssl', [
+    'x509', '-inform', 'DER', '-in', der, '-out', pem
+  ]);
+
+  ejecutar('openssl', [
+    'verify',
+    '-CAfile', '/etc/ssl/certs/ca-certificates.crt',
+    pem
+  ]);
+
+  writeFileSync(certificados, Buffer.concat([
+    readFileSync('/etc/ssl/certs/ca-certificates.crt'),
+    Buffer.from('\n'),
+    readFileSync(pem)
+  ]));
+
+  console.log('Certificado intermedio verificado.');
+
+  ejecutar('curl', [
+    '-fsSL',
+    '--max-time', '45',
+    '--max-filesize', '10000000',
+    '--cacert', certificados,
+    '-o', pdf,
+    url
+  ]);
+
+  if (readFileSync(pdf).subarray(0, 5).toString() !== '%PDF-') {
+    throw new Error('La respuesta no es un PDF');
+  }
+
+  const texto = ejecutar(
+    'pdftotext', ['-layout', pdf, '-']
+  ).normalize('NFC');
+
+  const cabecera = texto.slice(0, 5000);
+
+  const numLeido = cabecera.match(
+    /N[úu]m(?:ero)?\.?\s*[:º°]?\s*(\d+)/i
+  );
+
+  const fechaLeida = cabecera.match(
+    /\b(\d{1,2})\s+de\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\s+de\s+(\d{4})\b/i
+  );
+
+  if (!numLeido || !fechaLeida) {
+    console.log('Cabecera PDF:', cabecera.slice(0, 800));
+    throw new Error(
+      'No se reconocen número y fecha en el sumario'
+    );
+  }
+
+  const fecha =
+    `${fechaLeida[3]}-` +
+    `${meses[fechaLeida[2].toLowerCase()]}-` +
+    fechaLeida[1].padStart(2, '0');
+
+  const hoy = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Madrid',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).format(new Date());
+
+  if (
+    Number(numLeido[1]) !== numero ||
+    fecha.slice(0, 7) !== `${anio}-${mes}` ||
+    fecha > hoy
+  ) {
+    throw new Error(
+      `El sumario no coincide: n.º ${numLeido[1]}, fecha ${fecha}`
+    );
+  }
+
+  console.log(
+    `Sumario leído y verificado: n.º ${numero}, ${fecha}.`
+  );
+
+  const lineas = texto.split(/\r?\n/).map(
+    linea => linea.trim()
+  );
+
+  const convocatorias = [];
+  let lugar = '';
+
+  for (let i = 0; i < lineas.length; i++) {
+    if (
+      /^(?:Ayuntamiento de |Diputaci[oó]n Foral de |Mancomunidad de )/i
+        .test(lineas[i])
+    ) {
+      lugar = lineas[i];
     }
 
-    const texto = lectura.stdout.normalize('NFC');
-    const cabecera = texto.slice(0, 3000);
-
-    const numeroLeido = cabecera.match(
-      /N[úu]m(?:ero)?\.?\s*[:º°]?\s*(\d+)/i
-    );
-
-    const fechaLeida = cabecera.match(
-      /(\d{1,2})\s+de\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\s+de\s+(\d{4})/i
-    );
-
-    if (!numeroLeido || !fechaLeida) {
-      console.log(cabecera);
-      throw new Error(`No se reconoce la cabecera del boletín ${numero}.`);
-    }
-
-    const mesLeido = meses[fechaLeida[2].toLowerCase()];
-    const fecha =
-      `${fechaLeida[3]}-${mesLeido}-` +
-      fechaLeida[1].padStart(2, '0');
+    const titulo = [
+      lineas[i], lineas[i + 1] || ''
+    ].join(' ').replace(/\s+/g, ' ').trim();
 
     if (
-      Number(numeroLeido[1]) !== numero ||
-      fechaLeida[3] !== '2026' ||
-      mesLeido !== mes
-    ) {
-      throw new Error(`La cabecera no coincide con la URL: ${numero}, ${fecha}.`);
+      !/(?:convocatoria|bases|bolsa de trabajo)/i
+        .test(lineas[i])
+    ) continue;
+
+    if (
+      !/(?:plazas?|puestos?|bolsa de trabajo|proceso selectivo|oposici[oó]n)/i
+        .test(titulo)
+    ) continue;
+
+    if (
+      /(?:subvenci[oó]n|ayudas?|admitid[oa]s|excluid[oa]s|lista definitiva|primer ejercicio|nombramiento|promoci[oó]n interna|concurso de m[eé]ritos)/i
+        .test(titulo)
+    ) continue;
+
+    if (convocatorias.some(x => x.titulo === titulo)) {
+      continue;
     }
 
-    pendientes.push({ numero, fecha, url });
-    console.log(`PDF leído y verificado: n.º ${numero}, fecha ${fecha}.`);
+    convocatorias.push({
+      provincia: 'Bizkaia',
+      lugar,
+      titulo,
+      boletin: numero,
+      fecha,
+      url
+    });
   }
 
-  db.exec('BEGIN');
+  const archivo = join(
+    raiz, 'data', 'convocatorias.json'
+  );
 
-  try {
-    const insertar = db.prepare(
-      'INSERT INTO bizkaia(numero, fecha, url) VALUES (?, ?, ?)'
-    );
+  const anteriores = JSON.parse(
+    readFileSync(archivo, 'utf8')
+  );
 
-    for (const fila of pendientes) {
-      insertar.run(fila.numero, fila.fecha, fila.url);
-    }
+  const delDia = anteriores.fecha === fecha
+    ? anteriores.convocatorias || []
+    : [];
 
-    db.exec('COMMIT');
-  } catch (error) {
-    db.exec('ROLLBACK');
-    throw error;
-  }
+  const otras = delDia.filter(
+    x => x.provincia !== 'Bizkaia'
+  );
 
-  console.log(`Carga inicial completada: ${pendientes.length} boletines añadidos.`);
+  writeFileSync(
+    archivo,
+    JSON.stringify({
+      fecha,
+      convocatorias: [...otras, ...convocatorias]
+    }, null, 2) + '\n'
+  );
+
+  console.log(
+    `Convocatorias candidatas: ${convocatorias.length}.`
+  );
+
+  db.prepare(`
+    INSERT INTO bizkaia(numero, fecha, url)
+    VALUES (?, ?, ?)
+  `).run(numero, fecha, url);
+
+  console.log('Boletín guardado en la base de datos.');
 } finally {
   db.close();
+  rmSync(temporal, {
+    recursive: true,
+    force: true
+  });
 }
