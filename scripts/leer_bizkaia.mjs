@@ -127,6 +127,7 @@ function extraerConvocatorias(texto, url, numero, fecha) {
       );
       continue;
     }
+    if (/publicaci[oó]n.*Boletín Oficial del Estado/i.test(plazo)) continue;
     
     const tasa = anuncio.match(
       /Tasa aplicable[^:]{0,65}:\s*(\d+,\d{2})\s*euros/i
