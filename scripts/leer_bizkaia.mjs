@@ -22,7 +22,7 @@ const meses = {
 function ejecutar(comando, argumentos) {
   const resultado = spawnSync(comando, argumentos, {
     encoding: 'utf8',
-    maxBuffer: 10_000_000
+    maxBuffer: 50_000_000
   });
 
   if (resultado.error || resultado.status !== 0) {
