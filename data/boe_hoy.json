@@ -1,1 +1,116 @@
-{"fecha":"","estado":"pendiente","convocatorias":[]}
+{
+  "fecha": "2026-09-26",
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Madrid",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Alcobendas (Madrid), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19957"
+    },
+    {
+      "provincia": "Alicante",
+      "titulo": "Resolución de 4 de agosto de 2026, del Ayuntamiento de Villena (Alicante/Alacant), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19958"
+    },
+    {
+      "provincia": "Badajoz",
+      "titulo": "Resolución de 3 de septiembre de 2026, del Ayuntamiento de Olivenza (Badajoz), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19959"
+    },
+    {
+      "provincia": "Valencia",
+      "titulo": "Resolución de 19 de septiembre de 2026, del Ayuntamiento de Algemesí (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19960"
+    },
+    {
+      "provincia": "Almería",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Serón (Almería), referente a la convocatoria para proveer varias plazas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19961"
+    },
+    {
+      "provincia": "Tarragona",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Riudoms (Tarragona), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19962"
+    },
+    {
+      "provincia": "Toledo",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Las Herencias (Toledo), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19963"
+    },
+    {
+      "provincia": "Madrid",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Alcalá de Henares (Madrid), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19964"
+    },
+    {
+      "provincia": "Alicante",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de El Campello (Alicante/Alacant), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19965"
+    },
+    {
+      "provincia": "Girona",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Forallac (Girona), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19966"
+    },
+    {
+      "provincia": "Lleida",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Consejo Comarcal del Alt Urgell (Lérida), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19967"
+    },
+    {
+      "provincia": "Valencia",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Albal (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19968"
+    },
+    {
+      "provincia": "Valencia",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Real (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19969"
+    },
+    {
+      "provincia": "Valencia",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Manises (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19970"
+    },
+    {
+      "provincia": "Córdoba",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Hornachuelos (Córdoba), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19971"
+    },
+    {
+      "provincia": "Valencia",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Albal (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19972"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Valldemossa (Illes Balears), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19973"
+    },
+    {
+      "provincia": "Valencia",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Albal (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19974"
+    },
+    {
+      "provincia": "Barcelona",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Santa Coloma de Gramenet (Barcelona), referente a la convocatoria para proveer varias plazas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19976"
+    },
+    {
+      "provincia": "Barcelona",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Santa Coloma de Gramenet (Barcelona), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19977"
+    },
+    {
+      "provincia": "Málaga",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Torrox (Málaga), referente a la convocatoria para proveer varias plazas.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19978"
+    },
+    {
+      "provincia": "Ciudad Real",
+      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Porzuna (Ciudad Real), referente a la convocatoria para proveer una plaza.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19979"
+    }
+  ]
+}
