@@ -4,112 +4,252 @@
   "convocatorias": [
     {
       "provincia": "Madrid",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Alcobendas (Madrid), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.",
+      "ente": "Alcobendas",
+      "plazas": [
+        {
+          "puesto": "2 puestos de Responsable Turnos Atención Ciudadana",
+          "sistema": "concurso"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19957"
     },
     {
       "provincia": "Alicante",
-      "titulo": "Resolución de 4 de agosto de 2026, del Ayuntamiento de Villena (Alicante/Alacant), referente a la convocatoria para proveer una plaza.",
+      "ente": "Villena",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a mantenimiento y eficiencia energética",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19958"
     },
     {
       "provincia": "Badajoz",
-      "titulo": "Resolución de 3 de septiembre de 2026, del Ayuntamiento de Olivenza (Badajoz), referente a la convocatoria para proveer una plaza.",
+      "ente": "Olivenza",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Subinspector/a",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19959"
     },
     {
       "provincia": "Valencia",
-      "titulo": "Resolución de 19 de septiembre de 2026, del Ayuntamiento de Algemesí (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "ente": "Algemesí",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a medio de Oficina Municipal Información al Consumidor y Servicios Generales",
+          "sistema": "concurso-oposición"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a medio de Contratación",
+          "sistema": "concurso-oposición"
+        },
+        {
+          "puesto": "2 plazas de Oficial de Cementerio",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19960"
     },
     {
       "provincia": "Almería",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Serón (Almería), referente a la convocatoria para proveer varias plazas.",
+      "ente": "Serón",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Policía Local",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19961"
     },
     {
       "provincia": "Tarragona",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Riudoms (Tarragona), referente a la convocatoria para proveer una plaza.",
+      "ente": "Riudoms",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Administración General",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19962"
     },
     {
       "provincia": "Toledo",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Las Herencias (Toledo), referente a la convocatoria para proveer una plaza.",
+      "ente": "Las Herencias",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar de ayuda a domicilio a tiempo parcial de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19963"
     },
     {
       "provincia": "Madrid",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Alcalá de Henares (Madrid), referente a la convocatoria para proveer una plaza.",
+      "ente": "Alcalá de Henares",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ayudante de Archivo y Bibliotecas",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19964"
     },
     {
       "provincia": "Alicante",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de El Campello (Alicante/Alacant), referente a la convocatoria para proveer una plaza.",
+      "ente": "El Campello",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Inspector/a de Obras y Servicios",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19965"
     },
     {
       "provincia": "Girona",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Forallac (Girona), referente a la convocatoria para proveer una plaza.",
+      "ente": "Forallac",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Vigilante local",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19966"
     },
     {
       "provincia": "Lleida",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Consejo Comarcal del Alt Urgell (Lérida), referente a la convocatoria para proveer una plaza.",
+      "ente": "Consejo Comarcal del Alt Urgell",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Oficial Forestal Brigada de Caminos de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19967"
     },
     {
       "provincia": "Valencia",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Albal (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "ente": "Albal",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de Policía Local",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19968"
     },
     {
       "provincia": "Valencia",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Real (Valencia/València), referente a la convocatoria para proveer varias plazas.",
+      "ente": "Real",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Auxiliar Policía Local",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19969"
     },
     {
       "provincia": "Valencia",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Manises (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "ente": "Manises",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a Técnico/a de Obras Públicas",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19970"
     },
     {
       "provincia": "Córdoba",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Hornachuelos (Córdoba), referente a la convocatoria para proveer una plaza.",
+      "ente": "Hornachuelos",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Policía Local",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19971"
     },
     {
       "provincia": "Valencia",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Albal (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "ente": "Albal",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Medio/a Informático/a",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19972"
     },
     {
       "provincia": "Islas Baleares",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Valldemossa (Illes Balears), referente a la convocatoria para proveer una plaza.",
+      "ente": "Valldemossa",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Oficial de Brigada/Mantenimiento/Conductor/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19973"
     },
     {
       "provincia": "Valencia",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Albal (Valencia/València), referente a la convocatoria para proveer una plaza.",
+      "ente": "Albal",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Profesor/a Escuela permanente de personas adultas de la plantilla de personal laboral fijo",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19974"
     },
     {
       "provincia": "Barcelona",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Santa Coloma de Gramenet (Barcelona), referente a la convocatoria para proveer varias plazas.",
+      "ente": "Santa Coloma de Gramenet",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Auxiliar especialista",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19976"
     },
     {
       "provincia": "Barcelona",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Santa Coloma de Gramenet (Barcelona), referente a la convocatoria para proveer una plaza.",
+      "ente": "Santa Coloma de Gramenet",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Superior",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19977"
     },
     {
       "provincia": "Málaga",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Torrox (Málaga), referente a la convocatoria para proveer varias plazas.",
+      "ente": "Torrox",
+      "plazas": [
+        {
+          "puesto": "4 plazas de Oficial de Pintura",
+          "sistema": "concurso-oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19978"
     },
     {
       "provincia": "Ciudad Real",
-      "titulo": "Resolución de 21 de septiembre de 2026, del Ayuntamiento de Porzuna (Ciudad Real), referente a la convocatoria para proveer una plaza.",
+      "ente": "Porzuna",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de la Policía Local",
+          "sistema": "oposición"
+        }
+      ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19979"
     }
   ]
