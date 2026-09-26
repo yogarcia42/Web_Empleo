@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Convocatorias de Empleo</title>
+  <style>
+    :root{font-family:Arial,Helvetica,sans-serif;color:#46372b;background:#f5efe5}
+    *{box-sizing:border-box}body{margin:0}
+    main{max-width:880px;margin:auto;padding:14px 20px 35px}
+    h1{font:700 1.4rem Georgia,serif;margin:0 0 8px}
+    nav{display:flex;gap:26px;border-bottom:1px solid #bdac96;padding-bottom:6px}
+    nav span{font-weight:700;color:#695749}
+    nav span:first-child{border-bottom:2px solid #886143;color:#493022}
+    h2{font:700 1.1rem Georgia,serif;margin:12px 0 5px}
+    .provincia{padding:3px 0;font-size:.94rem;line-height:1.35}
+    .provincia>strong{font-weight:750;text-decoration:underline;text-underline-offset:3px}
+    .oferta{margin:3px 0 5px 30px}
+    .oferta>strong{font-weight:600}
+    .oferta a{color:#745039}
+    .estado{font-size:.88rem;color:#806b5a;margin-left:9px}
+    #mensaje{font-size:.9rem;color:#806b5a;margin:8px 0}
+    @media(max-width:620px){main{padding:13px 14px}nav{justify-content:space-between;gap:12px}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Convocatorias de Empleo</h1>
+  <nav aria-label="Fecha"><span>Hoy <time id="fecha"></time></span><span>Convocatorias en plazo</span></nav>
+  <p id="mensaje" role="status">Leyendo el BOE de hoy…</p>
+  <h2>NACIONAL</h2>
+  <h2>CCAA</h2>
+  <h2>LOCAL</h2>
+  <div id="provincias"></div>
+</main>
+<script>
+  const formato = new Intl.DateTimeFormat('es-ES', {
+    timeZone: 'Europe/Madrid', day: '2-digit', month: '2-digit', year: 'numeric'
+  });
+  const hoy = formato.format(new Date());
+  const [dia, mes, anio] = hoy.split('/');
+  const hoyISO = `${anio}-${mes}-${dia}`;
+  document.querySelector('#fecha').textContent = hoy;
+
+  async function iniciar() {
+    const contenedor = document.querySelector('#provincias');
+    const mensaje = document.querySelector('#mensaje');
+    try {
+      const [respuestaNombres, respuestaBOE] = await Promise.all([
+        fetch('data/provincias.json'),
+        fetch(`data/boe_hoy.json?v=${encodeURIComponent(hoyISO)}`, {cache:'no-store'})
+      ]);
+      if (!respuestaNombres.ok || !respuestaBOE.ok) throw Error('No se pudieron leer los datos');
+      const nombres = await respuestaNombres.json();
+      const datos = await respuestaBOE.json();
+      const actualizado = datos.fecha === hoyISO;
+      const ofertas = actualizado ? datos.convocatorias || [] : [];
+      const orden = [...new Set(nombres)].sort(new Intl.Collator('es', {sensitivity:'base'}).compare);
+      for (const nombre of orden) {
+        const fila = document.createElement('div');
+        fila.className = 'provincia';
+        const titulo = document.createElement('strong');
+        titulo.textContent = nombre;
+        fila.append(titulo);
+        const propias = ofertas.filter(oferta => oferta.provincia === nombre);
+        if (propias.length === 0) {
+          const estado = document.createElement('span');
+          estado.className = 'estado';
+          estado.textContent = !actualizado ? 'Pendiente de actualización'
+            : nombre === 'Araba/Álava' && datos.araba?.estado === 'sin_boletin'
+              ? 'Sin ofertas en el BOE · hoy no hay BOTHA'
+            : nombre === 'Araba/Álava' && datos.araba?.estado === 'publicado'
+              ? 'Sin ofertas en el BOE ni en el BOTHA de hoy'
+            : datos.estado === 'sin_boe' ? 'Hoy no hay BOE' : 'Sin ofertas en el BOE de hoy';
+          fila.append(estado);
+        }
+        for (const oferta of propias) {
+          const detalle = document.createElement('div');
+          detalle.className = 'oferta';
+          const enlace = document.createElement('a');
+          enlace.href = oferta.url;
+          enlace.target = '_blank';
+          enlace.rel = 'noopener noreferrer';
+          if (Array.isArray(oferta.plazas)) {
+            const ente = document.createElement('strong');
+            ente.textContent = oferta.ente + ': ';
+            detalle.append(ente);
+            for (const [indice, plaza] of oferta.plazas.entries()) {
+              if (indice) detalle.append(document.createElement('br'));
+              detalle.append(document.createTextNode(plaza.puesto));
+              if (plaza.sistema) detalle.append(document.createTextNode(` · ${plaza.sistema}`));
+              detalle.append(document.createTextNode(' '));
+            }
+            enlace.textContent = oferta.origen === 'BOTHA' ? 'Ver BOTHA ↗' : 'Ver BOE ↗';
+          } else {
+            // Durante la actualización, el JSON anterior todavía puede estar publicado.
+            enlace.textContent = oferta.titulo;
+          }
+          detalle.append(enlace);
+          fila.append(detalle);
+        }
+        contenedor.append(fila);
+      }
+      mensaje.textContent = actualizado
+        ? (datos.estado === 'sin_boe' ? 'Hoy no se ha publicado BOE.' : '')
+        : 'El BOE de hoy está pendiente de actualización.';
+    } catch (error) {
+      mensaje.textContent = 'No se pudieron cargar los datos del BOE.';
+    }
+  }
+  iniciar();
+</script>
+</body>
+</html>
