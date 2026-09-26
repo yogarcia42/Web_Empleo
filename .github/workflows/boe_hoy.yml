@@ -1,0 +1,41 @@
+name: Leer BOE de hoy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 6-20/2 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: boe-hoy
+  cancel-in-progress: false
+
+jobs:
+  actualizar-y-publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Leer BOE y generar las ofertas de hoy
+        run: python3 scripts/boe_hoy.py
+      - name: Guardar datos actualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/boe_hoy.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar ofertas del BOE de hoy"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4
