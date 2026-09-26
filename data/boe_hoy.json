@@ -3,53 +3,13 @@
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Madrid",
-      "ente": "Alcobendas",
-      "plazas": [
-        {
-          "puesto": "2 puestos de Responsable Turnos Atención Ciudadana",
-          "sistema": "concurso"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19957"
-    },
-    {
-      "provincia": "Alicante",
-      "ente": "Villena",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a mantenimiento y eficiencia energética",
-          "sistema": "concurso-oposición"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19958"
-    },
-    {
-      "provincia": "Badajoz",
-      "ente": "Olivenza",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Subinspector/a",
-          "sistema": "concurso-oposición"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19959"
-    },
-    {
       "provincia": "Valencia",
       "ente": "Algemesí",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a medio de Oficina Municipal Información al Consumidor y Servicios Generales",
-          "sistema": "concurso-oposición"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a medio de Contratación",
-          "sistema": "concurso-oposición"
-        },
-        {
           "puesto": "2 plazas de Oficial de Cementerio",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19960"
@@ -60,7 +20,8 @@
       "plazas": [
         {
           "puesto": "2 plazas de Policía Local",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19961"
@@ -71,7 +32,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Técnico/a de Administración General",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19962"
@@ -82,7 +44,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Auxiliar de ayuda a domicilio a tiempo parcial de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19963"
@@ -93,21 +56,11 @@
       "plazas": [
         {
           "puesto": "1 plaza de Ayudante de Archivo y Bibliotecas",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19964"
-    },
-    {
-      "provincia": "Alicante",
-      "ente": "El Campello",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Inspector/a de Obras y Servicios",
-          "sistema": "concurso-oposición"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19965"
     },
     {
       "provincia": "Girona",
@@ -115,7 +68,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Vigilante local",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19966"
@@ -126,7 +80,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Oficial Forestal Brigada de Caminos de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19967"
@@ -137,7 +92,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Agente de Policía Local",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19968"
@@ -148,7 +104,8 @@
       "plazas": [
         {
           "puesto": "2 plazas de Auxiliar Policía Local",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19969"
@@ -159,7 +116,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Ingeniero/a Técnico/a de Obras Públicas",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19970"
@@ -170,7 +128,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Policía Local",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19971"
@@ -181,7 +140,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Técnico/a Medio/a Informático/a",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19972"
@@ -192,7 +152,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Oficial de Brigada/Mantenimiento/Conductor/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19973"
@@ -203,7 +164,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Profesor/a Escuela permanente de personas adultas de la plantilla de personal laboral fijo",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19974"
@@ -214,7 +176,8 @@
       "plazas": [
         {
           "puesto": "3 plazas de Auxiliar especialista",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19976"
@@ -225,7 +188,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Técnico/a Superior",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19977"
@@ -236,7 +200,8 @@
       "plazas": [
         {
           "puesto": "4 plazas de Oficial de Pintura",
-          "sistema": "concurso-oposición"
+          "sistema": "concurso-oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19978"
@@ -247,7 +212,8 @@
       "plazas": [
         {
           "puesto": "1 plaza de Agente de la Policía Local",
-          "sistema": "oposición"
+          "sistema": "oposición",
+          "turno": "libre"
         }
       ],
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19979"
