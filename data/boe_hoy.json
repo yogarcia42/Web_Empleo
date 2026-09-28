@@ -1,8 +1,276 @@
 {
-  "fecha": "2026-09-27",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "fecha": "2026-09-28",
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Castellón",
+      "ente": "Castelló de la Plana",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Coordinador/a de prevención y seguridad",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20043"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Mancomunitat de Municipis de la Safor",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Dinamizador/a de Juventud de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20045"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Consorcio para la Gestión de Residuos del Vallés Occidental",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a medio categoría Ingeniero/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20046"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Sabadell",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Superior Profesor/a de Canto de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "2 plazas de Técnico/a Superior Profesor/a de Lenguaje Musical y Materias Teóricas de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a Superior Profesor/a de Guitarra de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a Superior Profesor/a de Clarinete de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20048"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Canals",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Auxiliar Adminstrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20049"
+    },
+    {
+      "provincia": "Murcia",
+      "ente": "Blanca",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20050"
+    },
+    {
+      "provincia": "Murcia",
+      "ente": "Blanca",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Conserje de instalaciones municipales",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20051"
+    },
+    {
+      "provincia": "Tarragona",
+      "ente": "Reus",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Especialista de Cometidos Especiales de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20052"
+    },
+    {
+      "provincia": "Tarragona",
+      "ente": "Reus",
+      "plazas": [
+        {
+          "puesto": "7 plazas de Técnico/a especialista de cometidos especiales (integrador/a social) de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20053"
+    },
+    {
+      "provincia": "Las Palmas",
+      "ente": "Cabildo Insular de Fuerteventura",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Técnico/a Administración Especial",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20054"
+    },
+    {
+      "provincia": "Las Palmas",
+      "ente": "Cabildo Insular de Fuerteventura",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Profesor/a de música - especialidad guitarra de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20055"
+    },
+    {
+      "provincia": "Cádiz",
+      "ente": "Ubrique",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Sepulturero/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20058"
+    },
+    {
+      "provincia": "Cádiz",
+      "ente": "Ubrique",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Dinamizador/a de Programas, Proyectos y Eventos de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20059"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Aznalcóllar",
+      "plazas": [
+        {
+          "puesto": "3 plazas de policia local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20060"
+    },
+    {
+      "provincia": "Las Palmas",
+      "ente": "Cabildo Insular de Gran Canaria",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Técnico/a de Gestión",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20061"
+    },
+    {
+      "provincia": "Albacete",
+      "ente": "La Gineta",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Encargado/a de Servicios Operativos de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20062"
+    },
+    {
+      "provincia": "Ciudad Real",
+      "ente": "Arenas de San Juan",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Monitoría de Gimnasio de la plantilla de personal laboral fijo",
+          "sistema": "concurso",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20064"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Bétera",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Psicólogo/a Intervención Social",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Asesor/a Jurídico/a Servicios Sociales",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20065"
+    },
+    {
+      "provincia": "Las Palmas",
+      "ente": "Cabildo Insular de Fuerteventura",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Superior de Educación y Juventud",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "2 plazas de Psicólogo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20066"
+    },
+    {
+      "provincia": "A Coruña",
+      "ente": "Ferrol",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Educador/a social",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20067"
+    }
+  ],
   "araba": {
-    "estado": "sin_boletin"
+    "estado": "publicado",
+    "numero": 111,
+    "convocatorias": 0
   }
 }
