@@ -1,7 +1,263 @@
 {
   "fecha": "2026-10-01",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Albacete",
+      "ente": "Pozuelo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a Servicios Varios de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20413"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "El Viso de San Juan",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20416"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "ente": "Inca",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20418"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Entidad Sociedad Pública Municipal Limpieza y Mantenimiento de Carmona",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Graduado/a Social de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20419"
+    },
+    {
+      "provincia": "Castellón",
+      "ente": "Benicarló",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Turismo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20420"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Albatera",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Peón/a Sepulturero/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Educador/a Social",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20421"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Santa Pola",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de Igualdad",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20423"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Elda",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a Técnico/a de Obras Públicas",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20424"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Elda",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a Técnico/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20425"
+    },
+    {
+      "provincia": "La Rioja",
+      "ente": "Haro",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo o Administrativa del Servicio de Aguas y Urbanismo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20427"
+    },
+    {
+      "provincia": "Bizkaia",
+      "ente": "Arrigorriaga",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Oficial/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20428"
+    },
+    {
+      "provincia": "A Coruña",
+      "ente": "Ferrol",
+      "plazas": [
+        {
+          "puesto": "5 plazas de personal auxiliar administrativo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20429"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "Villacañas",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Maestro/a Escuela Infantil de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Educador/a Escuela Infantil de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20430"
+    },
+    {
+      "provincia": "Zaragoza",
+      "ente": "Castiliscar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a de Servicios Múltiples de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20432"
+    },
+    {
+      "provincia": "Cantabria",
+      "ente": "Torrelavega",
+      "plazas": [
+        {
+          "puesto": "8 plazas de Bombero/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20433"
+    },
+    {
+      "provincia": "Asturias",
+      "ente": "Castrillón, Patronato Municipal de Actividades Deportivas",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Operario/a de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20437"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Fuenlabrada",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Controlador/a de Instalaciones Deportivas del Patronato Municipal de Deportes de Fuenlabrada de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Capataz de Parques y Jardines",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20438"
+    },
+    {
+      "provincia": "Lleida",
+      "ente": "Agramunt",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20439"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Bétera",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Técnico/a Inclusión Social",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20440"
+    },
+    {
+      "provincia": "Albacete",
+      "ente": "La Roda",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Oficial/a Servicio Obras",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20441"
+    }
+  ],
   "araba": {
     "estado": "sin_boletin"
   }
