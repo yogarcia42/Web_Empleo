@@ -1,8 +1,187 @@
 {
-  "fecha": "2026-10-04",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "fecha": "2026-10-05",
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Segovia",
+      "ente": "Comunidad de Villa y Tierra de Pedraza",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Conductor/a del Servicio de Recogida de Residuos Sólidos Urbanos de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20631"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "ente": "Sa Pobla",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Monitor/a Deportivo/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20632"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Sant Joan d'Alacant",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a medio/a de relaciones laborales",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20634"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Guadassuar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de la Policía local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20635"
+    },
+    {
+      "provincia": "Asturias",
+      "ente": "Langreo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Conserje",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20638"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "ente": "Consejo Insular de Formentera",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Letrado/Letrada",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20640"
+    },
+    {
+      "provincia": "La Rioja",
+      "ente": "Calahorra",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a Técnico/a Director/a del Parque de Servicios",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20641"
+    },
+    {
+      "provincia": "Bizkaia",
+      "ente": "Leioa",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a Mantenimiento",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "3 plazas de Técnico/a Servicios Sociales",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "3 plazas de Jefatura del área de Cultura",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20642"
+    },
+    {
+      "provincia": "Castellón",
+      "ente": "La Vilavella",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20643"
+    },
+    {
+      "provincia": "Teruel",
+      "ente": "Aliaga",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar de Biblioteca de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20646"
+    },
+    {
+      "provincia": "Huelva",
+      "ente": "Manzanilla",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Policia local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20648"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Guillena",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Administración General",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20650"
+    },
+    {
+      "provincia": "Ourense",
+      "ente": "Mancomunidad de Concellos Santa Águeda",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Asesor/a Jurídico/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Psicólogo/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Agente Dinamizador/a en materia de igualdad de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20651"
+    }
+  ],
   "araba": {
-    "estado": "sin_boletin"
+    "estado": "publicado",
+    "numero": 114,
+    "convocatorias": 0
   }
 }
