@@ -1,8 +1,10 @@
 {
-  "fecha": "2026-10-11",
+  "fecha": "2026-10-12",
   "estado": "sin_boe",
   "convocatorias": [],
   "araba": {
-    "estado": "sin_boletin"
+    "estado": "publicado",
+    "numero": 117,
+    "convocatorias": 0
   }
 }
