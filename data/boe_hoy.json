@@ -1,7 +1,174 @@
 {
   "fecha": "2026-10-13",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Barcelona",
+      "ente": "Sant Cugat del Vallès",
+      "plazas": [
+        {
+          "puesto": "5 plazas de Técnico/a Superior, adscrito al Servicio de Innovación Cultural, Patrimonio Histórico y Museo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21262"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "El Molar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21263"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Consorcio de Extinción de Incendios y Salvamento de Alicante",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21264"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Xàbia/Jávea",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Gestión de Fiestas",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21265"
+    },
+    {
+      "provincia": "Albacete",
+      "ente": "La Gineta",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar de Gestión Administrativa",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21267"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Viladecans",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Oficial/a de primera de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21270"
+    },
+    {
+      "provincia": "Cuenca",
+      "ente": "Motilla del Palancar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a Servicios Varios",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21272"
+    },
+    {
+      "provincia": "Jaén",
+      "ente": "Martos",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21274"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Las Cabezas de San Juan",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Policia Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21275"
+    },
+    {
+      "provincia": "Ávila",
+      "ente": "Candeleda",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21276"
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "ente": "Mancomunidad Beterri-Buruntza",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Director/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a de Emprendimiento",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a de Comunicación y Relaciones",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21277"
+    },
+    {
+      "provincia": "Huelva",
+      "ente": "Cartaya",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Informatico/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21278"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "Seseña",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21279"
+    }
+  ],
   "araba": {
     "estado": "sin_boletin"
   }
