@@ -1,172 +1,182 @@
 {
-  "fecha": "2026-10-13",
+  "fecha": "2026-10-15",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Barcelona",
-      "ente": "Sant Cugat del Vallès",
+      "provincia": "Cáceres",
+      "ente": "Coria",
       "plazas": [
         {
-          "puesto": "5 plazas de Técnico/a Superior, adscrito al Servicio de Innovación Cultural, Patrimonio Histórico y Museo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21262"
-    },
-    {
-      "provincia": "Madrid",
-      "ente": "El Molar",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Administrativo/a",
+          "puesto": "1 plaza de Arquitecto/a Municipal",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21263"
-    },
-    {
-      "provincia": "Alicante",
-      "ente": "Consorcio de Extinción de Incendios y Salvamento de Alicante",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Administrativo/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21264"
-    },
-    {
-      "provincia": "Alicante",
-      "ente": "Xàbia/Jávea",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a de Gestión de Fiestas",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21265"
-    },
-    {
-      "provincia": "Albacete",
-      "ente": "La Gineta",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Auxiliar de Gestión Administrativa",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21267"
-    },
-    {
-      "provincia": "Barcelona",
-      "ente": "Viladecans",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Oficial/a de primera de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21270"
-    },
-    {
-      "provincia": "Cuenca",
-      "ente": "Motilla del Palancar",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Operario/a Servicios Varios",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21272"
-    },
-    {
-      "provincia": "Jaén",
-      "ente": "Martos",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Auxiliar Administrativo/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21274"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21491"
     },
     {
       "provincia": "Sevilla",
-      "ente": "Las Cabezas de San Juan",
-      "plazas": [
-        {
-          "puesto": "3 plazas de Policia Local",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21275"
-    },
-    {
-      "provincia": "Ávila",
-      "ente": "Candeleda",
+      "ente": "Osuna",
       "plazas": [
         {
           "puesto": "1 plaza de Administrativo/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21276"
-    },
-    {
-      "provincia": "Gipuzkoa",
-      "ente": "Mancomunidad Beterri-Buruntza",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Director/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a de Emprendimiento",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a de Comunicación y Relaciones",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21277"
-    },
-    {
-      "provincia": "Huelva",
-      "ente": "Cartaya",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a Informatico/a",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21278"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21492"
+    },
+    {
+      "provincia": "Badajoz",
+      "ente": "Ribera del Fresno",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Albañil de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21493"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Martorelles",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a con adscripción al área de Territorio",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21494"
+    },
+    {
+      "provincia": "Pontevedra",
+      "ente": "Fornelos de Montes",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a de Servicios Varios de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21497"
+    },
+    {
+      "provincia": "Cádiz",
+      "ente": "Chiclana de la Frontera",
+      "plazas": [
+        {
+          "puesto": "7 plazas de Personal Técnico de Administración General",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "3 plazas de Personal Técnico Jurídico",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21498"
+    },
+    {
+      "provincia": "Lugo",
+      "ente": "Monforte de Lemos",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Técnico/a de Administración General",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Educador/a Social de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Trabajador/a Social de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "2 plazas de Oficial de Obras de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21499"
+    },
+    {
+      "provincia": "Albacete",
+      "ente": "Caudete",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21500"
+    },
+    {
+      "provincia": "Málaga",
+      "ente": "Alhaurín el Grande",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Subinspector/a de Policía Local",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21501"
     },
     {
       "provincia": "Toledo",
-      "ente": "Seseña",
+      "ente": "Villarrubia de Santiago",
       "plazas": [
         {
-          "puesto": "3 plazas de Policía Local",
+          "puesto": "1 plaza de Auxiliar de Ayuda a Domicilio a tiempo parcial de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21502"
+    },
+    {
+      "provincia": "Valladolid",
+      "ente": "Quintanilla de Onésimo",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Operario/a de Servicios Múltiples de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21503"
+    },
+    {
+      "provincia": "Jaén",
+      "ente": "Andújar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Monitor/a Museos",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21504"
+    },
+    {
+      "provincia": "Jaén",
+      "ente": "Andújar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Administración General",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21279"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21506"
     }
   ],
   "araba": {
