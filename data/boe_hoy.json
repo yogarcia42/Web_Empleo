@@ -1,68 +1,7 @@
 {
-  "fecha": "2026-10-17",
-  "estado": "publicado",
-  "convocatorias": [
-    {
-      "provincia": "Barcelona",
-      "ente": "Canet de Mar",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Educador/a Social de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21638"
-    },
-    {
-      "provincia": "Barcelona",
-      "ente": "Santa Margarida de Montbui",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a de Medio Ambiente, Salud Pública y Bienestar Animal",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21639"
-    },
-    {
-      "provincia": "Teruel",
-      "ente": "Andorra",
-      "plazas": [
-        {
-          "puesto": "5 plazas de Auxiliar Televisión Local de la plantilla de personal laboral fijo",
-          "sistema": "concurso",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21640"
-    },
-    {
-      "provincia": "Madrid",
-      "ente": "Collado Villalba",
-      "plazas": [
-        {
-          "puesto": "5 plazas de Policía Local",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21641"
-    },
-    {
-      "provincia": "Santa Cruz de Tenerife",
-      "ente": "Granadilla de Abona",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a Jurídico de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21644"
-    }
-  ],
+  "fecha": "2026-10-18",
+  "estado": "sin_boe",
+  "convocatorias": [],
   "araba": {
     "estado": "sin_boletin"
   }
