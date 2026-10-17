@@ -1,83 +1,69 @@
 {
-  "fecha": "2026-10-16",
+  "fecha": "2026-10-17",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Málaga",
-      "ente": "Cártama",
+      "provincia": "Barcelona",
+      "ente": "Canet de Mar",
       "plazas": [
         {
-          "puesto": "1 plaza de Psicólogo/a, jornada parcial de 15 horas/semanales (especialidad en materia de atención a la mujer)",
+          "puesto": "1 plaza de Educador/a Social de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21569"
-    },
-    {
-      "provincia": "Málaga",
-      "ente": "Cártama",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Abogado/a, jornada parcial, 15 horas/semanales (especialidad en materia de atención a la mujer)",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21570"
-    },
-    {
-      "provincia": "Islas Baleares",
-      "ente": "Alcúdia",
-      "plazas": [
-        {
-          "puesto": "7 plazas de Auxiliar Administrativo/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21576"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21638"
     },
     {
       "provincia": "Barcelona",
-      "ente": "Sant Vicenç dels Horts",
+      "ente": "Santa Margarida de Montbui",
       "plazas": [
         {
-          "puesto": "2 plazas de Agentes de la Policía Local",
-          "sistema": "oposición",
+          "puesto": "1 plaza de Técnico/a de Medio Ambiente, Salud Pública y Bienestar Animal",
+          "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21577"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21639"
+    },
+    {
+      "provincia": "Teruel",
+      "ente": "Andorra",
+      "plazas": [
+        {
+          "puesto": "5 plazas de Auxiliar Televisión Local de la plantilla de personal laboral fijo",
+          "sistema": "concurso",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21640"
     },
     {
       "provincia": "Madrid",
-      "ente": "Buitrago del Lozoya",
+      "ente": "Collado Villalba",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a de Administración General Jurídico-Económico",
+          "puesto": "5 plazas de Policía Local",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21578"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21641"
     },
     {
-      "provincia": "Barcelona",
-      "ente": "L'Ametlla del Vallès",
+      "provincia": "Santa Cruz de Tenerife",
+      "ente": "Granadilla de Abona",
       "plazas": [
         {
-          "puesto": "3 plazas de Agente",
+          "puesto": "1 plaza de Técnico/a Jurídico de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21580"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21644"
     }
   ],
   "araba": {
-    "estado": "publicado",
-    "numero": 119,
-    "convocatorias": 0
+    "estado": "sin_boletin"
   }
 }
