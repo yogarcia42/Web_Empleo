@@ -1,185 +1,119 @@
 {
-  "fecha": "2026-10-20",
+  "fecha": "2026-10-21",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Barcelona",
-      "ente": "Canet de Mar",
+      "provincia": "Alicante",
+      "ente": "Orihuela",
       "plazas": [
         {
-          "puesto": "2 plazas de Conserge del Teatro de la plantilla de personal laboral fijo",
+          "puesto": "2 plazas de Agente de Policía",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21826"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21900"
     },
     {
-      "provincia": "Tarragona",
-      "ente": "El Vendrell",
+      "provincia": "Valencia",
+      "ente": "Manises",
       "plazas": [
         {
-          "puesto": "7 plazas de Agente de la Policía Local",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21827"
-    },
-    {
-      "provincia": "Santa Cruz de Tenerife",
-      "ente": "Candelaria",
-      "plazas": [
-        {
-          "puesto": "3 plazas de Policía Local",
+          "puesto": "1 plaza de Técnico/a de Turismo",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21828"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21901"
     },
     {
-      "provincia": "Barcelona",
-      "ente": "Esparreguera",
+      "provincia": "Córdoba",
+      "ente": "Entidad Local Autónoma de Algallarín",
       "plazas": [
         {
-          "puesto": "2 plazas de Auxiliar monitor-a Taller Ocupacional Can Comelles de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Monitor-a Taller Ocupacional Can Comelles de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Peón Jardinero/a de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21829"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21903"
     },
     {
-      "provincia": "Murcia",
-      "ente": "Yecla",
+      "provincia": "Asturias",
+      "ente": "Oviedo",
       "plazas": [
         {
-          "puesto": "2 plazas de Técnico/a de Administración General",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21830"
-    },
-    {
-      "provincia": "Santa Cruz de Tenerife",
-      "ente": "Consorcio de Isla Baja",
-      "plazas": [
-        {
-          "puesto": "4 plazas de Profesor/a titulado/a superior de la plantilla de personal laboral fijo",
-          "sistema": "concurso",
-          "turno": "libre"
-        },
-        {
-          "puesto": "5 plazas de Profesor/a titulado/a superior a tiempo parcial de la plantilla de personal laboral fijo",
-          "sistema": "concurso",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a titulado/a superior de la plantilla de personal laboral fijo",
-          "sistema": "concurso",
-          "turno": "libre"
-        },
-        {
-          "puesto": "2 plazas de Auxiliar administrativo/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21832"
-    },
-    {
-      "provincia": "Murcia",
-      "ente": "Yecla",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Arquitecto/a Técnico/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21835"
-    },
-    {
-      "provincia": "Cuenca",
-      "ente": "Campillo de Altobuey",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Auxiliar Administrativo/a Servicios Generales",
+          "puesto": "2 plazas de Arquitecto/a",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21837"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21906"
     },
     {
-      "provincia": "Girona",
-      "ente": "Begur",
+      "provincia": "La Rioja",
+      "ente": "Alberite",
       "plazas": [
         {
-          "puesto": "1 plaza de Agente de la Policia Local",
+          "puesto": "1 plaza de Auxiliar administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21907"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Elx/Elche",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Inspector/a de Infracciones Urbanísticas",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21909"
+    },
+    {
+      "provincia": "Asturias",
+      "ente": "Oviedo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Analista de Sistemas de Tecnologías de la Información y la Comunicación de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21838"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21910"
     },
     {
-      "provincia": "A Coruña",
-      "ente": "Ponteceso",
+      "provincia": "Asturias",
+      "ente": "Oviedo",
       "plazas": [
         {
-          "puesto": "2 plazas de Personal del Grupo de Emergencias Supramunicipal de Ponteceso de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Ingeniero/a Técnico/a de Obras Públicas o Graduado/a en Ingeniería Civil",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21911"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "La Pobla de Farnals",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Operario/a Peón/a de Oficios Múltiples de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21839"
-    },
-    {
-      "provincia": "León",
-      "ente": "Peranzanes",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Administrativo/a de la Administración General de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21840"
-    },
-    {
-      "provincia": "Burgos",
-      "ente": "Miranda de Ebro",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Educador/a familiar",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21841"
-    },
-    {
-      "provincia": "Burgos",
-      "ente": "Miranda de Ebro",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a superior en información",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21842"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21912"
     }
   ],
   "araba": {
-    "estado": "sin_boletin"
+    "estado": "publicado",
+    "numero": 121,
+    "convocatorias": 0
   }
 }
