@@ -1,119 +1,177 @@
 {
-  "fecha": "2026-10-21",
+  "fecha": "2026-10-22",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Alicante",
-      "ente": "Orihuela",
+      "provincia": "Madrid",
+      "ente": "Ciempozuelos",
       "plazas": [
         {
-          "puesto": "2 plazas de Agente de Policía",
+          "puesto": "1 plaza de Técnico/a Unidad Sancionadora",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21900"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21978"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "La Algaba",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Inspector/a Urbanístico/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21979"
     },
     {
       "provincia": "Valencia",
-      "ente": "Manises",
+      "ente": "Rafelbunyol",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a de Turismo",
+          "puesto": "3 plazas de Agente de Policía Local",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21901"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21980"
     },
     {
-      "provincia": "Córdoba",
-      "ente": "Entidad Local Autónoma de Algallarín",
+      "provincia": "Jaén",
+      "ente": "Alcaudete",
       "plazas": [
         {
-          "puesto": "1 plaza de Peón Jardinero/a de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Responsable del Cementerio Municipal",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21903"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21982"
     },
     {
-      "provincia": "Asturias",
-      "ente": "Oviedo",
+      "provincia": "Zaragoza",
+      "ente": "Tarazona",
       "plazas": [
         {
-          "puesto": "2 plazas de Arquitecto/a",
+          "puesto": "1 plaza de Técnico/a Auxiliar de Turismo de la plantilla de personal laboral fijo",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21906"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21983"
     },
     {
-      "provincia": "La Rioja",
-      "ente": "Alberite",
+      "provincia": "Lugo",
+      "ente": "Sarria",
       "plazas": [
         {
-          "puesto": "1 plaza de Auxiliar administrativo/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21907"
-    },
-    {
-      "provincia": "Alicante",
-      "ente": "Elx/Elche",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Inspector/a de Infracciones Urbanísticas",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21909"
-    },
-    {
-      "provincia": "Asturias",
-      "ente": "Oviedo",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Analista de Sistemas de Tecnologías de la Información y la Comunicación de la plantilla de personal laboral fijo",
+          "puesto": "7 plazas de Auxiliar Gerocultor/a de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21910"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21984"
     },
     {
-      "provincia": "Asturias",
-      "ente": "Oviedo",
+      "provincia": "Castellón",
+      "ente": "Montanejos",
       "plazas": [
         {
-          "puesto": "1 plaza de Ingeniero/a Técnico/a de Obras Públicas o Graduado/a en Ingeniería Civil",
-          "sistema": "oposición",
+          "puesto": "1 plaza de Personal de Limpieza de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21911"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21985"
     },
     {
       "provincia": "Valencia",
-      "ente": "La Pobla de Farnals",
+      "ente": "Almàssera",
       "plazas": [
         {
-          "puesto": "3 plazas de Operario/a Peón/a de Oficios Múltiples de la plantilla de personal laboral fijo",
+          "puesto": "2 plazas de Agente de Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21988"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Albaida del Aljarafe",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Oficial de Jardinería de la plantilla de personal laboral fijo",
+          "sistema": "concurso",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21991"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Collbató",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a medio/a especialista",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21912"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21992"
+    },
+    {
+      "provincia": "Lugo",
+      "ente": "Friol",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Peón de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21993"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "La Nucia",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Delineante",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21994"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Olivares",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Peón de mantenimiento de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21996"
+    },
+    {
+      "provincia": "Badajoz",
+      "ente": "Don Benito",
+      "plazas": [
+        {
+          "puesto": "6 plazas de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21997"
     }
   ],
   "araba": {
-    "estado": "publicado",
-    "numero": 121,
-    "convocatorias": 0
+    "estado": "sin_boletin"
   }
 }
