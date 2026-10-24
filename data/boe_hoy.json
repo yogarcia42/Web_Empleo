@@ -1,174 +1,276 @@
 {
-  "fecha": "2026-10-22",
+  "fecha": "2026-10-24",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Madrid",
-      "ente": "Ciempozuelos",
+      "provincia": "Alicante",
+      "ente": "Daya Nueva",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a Unidad Sancionadora",
+          "puesto": "1 plaza de Agente de la Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22247"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Òrrius",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21978"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22248"
     },
     {
-      "provincia": "Sevilla",
-      "ente": "La Algaba",
+      "provincia": "Málaga",
+      "ente": "Algatocín",
       "plazas": [
         {
-          "puesto": "1 plaza de Inspector/a Urbanístico/a",
+          "puesto": "1 plaza de Operario/a Limpiador/a de Colegio de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22251"
+    },
+    {
+      "provincia": "Girona",
+      "ente": "Caldes de Malavella",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22252"
+    },
+    {
+      "provincia": "Ciudad Real",
+      "ente": "Alhambra",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Informático/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22253"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Loeches",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a Medio/a Industrial, a tiempo parcial",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Director/a del centro de mayores",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22254"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Mancomunidad del Sur",
+      "plazas": [
+        {
+          "puesto": "4 plazas de Gestor/a Administrativo/a Especializado/a",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21979"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22255"
     },
     {
-      "provincia": "Valencia",
-      "ente": "Rafelbunyol",
+      "provincia": "Almería",
+      "ente": "Vícar",
       "plazas": [
         {
-          "puesto": "3 plazas de Agente de Policía Local",
+          "puesto": "1 plaza de Policía Local",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21980"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22256"
     },
     {
       "provincia": "Jaén",
-      "ente": "Alcaudete",
+      "ente": "Quesada",
       "plazas": [
         {
-          "puesto": "1 plaza de Responsable del Cementerio Municipal",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21982"
-    },
-    {
-      "provincia": "Zaragoza",
-      "ente": "Tarazona",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a Auxiliar de Turismo de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Policía Local",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21983"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22257"
     },
     {
-      "provincia": "Lugo",
-      "ente": "Sarria",
+      "provincia": "Granada",
+      "ente": "Polopos",
       "plazas": [
         {
-          "puesto": "7 plazas de Auxiliar Gerocultor/a de la plantilla de personal laboral fijo",
+          "puesto": "5 plazas de Operarios/as de limpieza viaria de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21984"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22258"
     },
     {
-      "provincia": "Castellón",
-      "ente": "Montanejos",
+      "provincia": "Ávila",
+      "ente": "Las Navas del Marqués",
       "plazas": [
         {
-          "puesto": "1 plaza de Personal de Limpieza de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Arquitecto/a municipal",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21985"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22259"
     },
     {
-      "provincia": "Valencia",
-      "ente": "Almàssera",
+      "provincia": "Bizkaia",
+      "ente": "Leioa",
       "plazas": [
         {
-          "puesto": "2 plazas de Agente de Policía Local",
-          "sistema": "oposición",
+          "puesto": "3 plazas de Profesor/a de Lenguaje Musical de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Profesor/a de Viola de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Profesor/a de Musicoterapia de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21988"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22260"
     },
     {
-      "provincia": "Sevilla",
-      "ente": "Albaida del Aljarafe",
+      "provincia": "Jaén",
+      "ente": "Torredonjimeno",
       "plazas": [
         {
-          "puesto": "1 plaza de Oficial de Jardinería de la plantilla de personal laboral fijo",
+          "puesto": "3 plazas de Auxiliar de Ayuda a Domicilio de la plantilla de personal laboral fijo",
           "sistema": "concurso",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21991"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22261"
     },
     {
-      "provincia": "Barcelona",
-      "ente": "Collbató",
+      "provincia": "Zaragoza",
+      "ente": "La Almunia de Doña Godina",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a medio/a especialista",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21992"
-    },
-    {
-      "provincia": "Lugo",
-      "ente": "Friol",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Peón de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21993"
-    },
-    {
-      "provincia": "Alicante",
-      "ente": "La Nucia",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Delineante",
+          "puesto": "1 plaza de Técnico/a de Recursos Humanos y Gestión Laboral de la plantilla de personal laboral fijo",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21994"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22262"
     },
     {
-      "provincia": "Sevilla",
-      "ente": "Olivares",
+      "provincia": "Lleida",
+      "ente": "Consell Comarcal del Pallars Jussà",
       "plazas": [
         {
-          "puesto": "1 plaza de Peón de mantenimiento de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Peón/a conductor/a de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21996"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22263"
     },
     {
       "provincia": "Badajoz",
       "ente": "Don Benito",
       "plazas": [
         {
-          "puesto": "6 plazas de Administrativo/a",
+          "puesto": "1 plaza de Oficial/a de Mantenimiento",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Oficial/a Electricista",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21997"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22264"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Sueca",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Arquitecto/a Técnico/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22265"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "ente": "Pollença",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Oficiales Brigada de Obras de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22266"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "Cuevas del Campo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Medio Ambiente",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22267"
+    },
+    {
+      "provincia": "Valladolid",
+      "ente": "Viana de Cega",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Encargado/a de la Guardería Municipal de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "2 plazas de Técnico/a de Educación Infantil de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22270"
     }
   ],
   "araba": {
