@@ -1,7 +1,121 @@
 {
   "fecha": "2026-10-28",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Madrid",
+      "ente": "Leganés",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Técnico/a Superior Derecho",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22565"
+    },
+    {
+      "provincia": "Málaga",
+      "ente": "Casabermeja",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22566"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Llinars del Vallès",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a servicios personales de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22567"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Sant Boi de Llobregat",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22568"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Carcaixent",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Medio/a de Administración General",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22571"
+    },
+    {
+      "provincia": "Segovia",
+      "ente": "Palazuelos de Eresma",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Auxiliar Administrativo/a de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22573"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Calp",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Administración General",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22574"
+    },
+    {
+      "provincia": "Lleida",
+      "ente": "Vilagrassa",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/va",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22575"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Sabadell",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Técnico/a Superior Profesor/a de Dibujo y Técnicas de Expresión Gráfica de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a Medio/a Profesor/a de Patronaje y Confección de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22576"
+    }
+  ],
   "araba": {
     "estado": "publicado",
     "numero": 124,
