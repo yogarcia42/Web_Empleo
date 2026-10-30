@@ -1,7 +1,121 @@
 {
   "fecha": "2026-10-30",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Barcelona",
+      "ente": "Viladecans",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Superior Informática",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a Superior de Gestión, departamento Sistemas de Información",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22748"
+    },
+    {
+      "provincia": "Murcia",
+      "ente": "Librilla",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Agente de Policía Local",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22751"
+    },
+    {
+      "provincia": "Teruel",
+      "ente": "Híjar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Responsable de brigada de obras y servicio de aguas",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22753"
+    },
+    {
+      "provincia": "Tarragona",
+      "ente": "La Selva del Camp",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Vigilante Municipal de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22754"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "ente": "Sant Lluís",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Electricista de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22756"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "Maracena",
+      "plazas": [
+        {
+          "puesto": "8 plazas de Operario/a de Servicios Múltiples de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22758"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Mancomunidad Intermunicipal de Servicios Sociales -Missem-",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Auxiliar Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22759"
+    },
+    {
+      "provincia": "Soria",
+      "ente": "Burgo de Osma-Ciudad de Osma",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Oficial/a de segunda encargado/a general de obras y mantenimiento de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22760"
+    },
+    {
+      "provincia": "Palencia",
+      "ente": "Salinas de Pisuerga",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Alguacil/a-Peón/peona de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22761"
+    }
+  ],
   "araba": {
     "estado": "publicado",
     "numero": 125,
