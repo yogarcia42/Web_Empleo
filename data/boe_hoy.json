@@ -1,10 +1,98 @@
 {
-  "fecha": "2026-11-04",
+  "fecha": "2026-11-05",
   "estado": "publicado",
-  "convocatorias": [],
+  "convocatorias": [
+    {
+      "provincia": "Alicante",
+      "ente": "Dénia",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ayudante de Cocina",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23204"
+    },
+    {
+      "provincia": "León",
+      "ente": "Bembibre",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23206"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "La Peza",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Personal Arquitecto/a Tecnico/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23207"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "La Garriga",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Trabajador/a Social",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23208"
+    },
+    {
+      "provincia": "Asturias",
+      "ente": "Grado",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23212"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "Maracena",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Monitor/a de Cultura: Fotografía de la plantilla de personal laboral fijo-discontinuo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Monitor/a de Cultura: Bailes de Salón de la plantilla de personal laboral fijo-discontinuo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23213"
+    },
+    {
+      "provincia": "Lleida",
+      "ente": "Consell Comarcal del Pallars Jussà",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de servicio a los municipios",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23215"
+    }
+  ],
   "araba": {
-    "estado": "publicado",
-    "numero": 127,
-    "convocatorias": 0
+    "estado": "sin_boletin"
   }
 }
