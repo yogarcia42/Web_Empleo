@@ -1,113 +1,69 @@
 {
-  "fecha": "2026-11-06",
+  "fecha": "2026-11-07",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Huesca",
-      "ente": "Fraga",
+      "provincia": "Castellón",
+      "ente": "L'Alcora",
       "plazas": [
         {
-          "puesto": "1 plaza de Peón/a Brigada de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23303"
-    },
-    {
-      "provincia": "Valladolid",
-      "ente": "Mancomunidad Pinoduero",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Encargado/a de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Agente de la Policía Local",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23306"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23355"
     },
     {
-      "provincia": "Ávila",
-      "ente": "Nava de Arévalo",
+      "provincia": "Huelva",
+      "ente": "Almonaster la Real",
       "plazas": [
         {
-          "puesto": "1 plaza de Operario/a de Servicios Múltiples de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Monitor/a-Dinamizador/a Turismo y Patrimonio Histórico Artístico",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23307"
-    },
-    {
-      "provincia": "Barcelona",
-      "ente": "Sant Fruitós de Bages",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Trabajador/a social",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "4 plazas de Administrativo/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a auxiliar - Técnico/a de juventud",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a medio - Técnico/a de juventud",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a medio ingeniero/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a superior arquitecto/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23308"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23356"
     },
     {
       "provincia": "Madrid",
-      "ente": "Guadarrama",
+      "ente": "Las Rozas de Madrid",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a Medio/a de Medio Ambiente",
+          "puesto": "1 plaza de Técnico/a de Sanidad de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23309"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23357"
     },
     {
-      "provincia": "Madrid",
-      "ente": "Guadarrama",
+      "provincia": "Segovia",
+      "ente": "El Espinar",
       "plazas": [
         {
-          "puesto": "2 plazas de Técnico/a Medio/a: Ingeniero/a Técnico/a Industrial",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a Medio/a: Arquitecto/a Técnico/a",
-          "sistema": "concurso-oposición",
+          "puesto": "3 plazas de Técnico/a de Gestión de Administración General",
+          "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23310"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23359"
+    },
+    {
+      "provincia": "La Rioja",
+      "ente": "Logroño",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a Superior (Aguas)",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23360"
     }
   ],
   "araba": {
-    "estado": "publicado",
-    "numero": 128,
-    "convocatorias": 0
+    "estado": "sin_boletin"
   }
 }
