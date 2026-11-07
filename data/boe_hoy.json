@@ -1,68 +1,7 @@
 {
-  "fecha": "2026-11-07",
-  "estado": "publicado",
-  "convocatorias": [
-    {
-      "provincia": "Castellón",
-      "ente": "L'Alcora",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Agente de la Policía Local",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23355"
-    },
-    {
-      "provincia": "Huelva",
-      "ente": "Almonaster la Real",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Monitor/a-Dinamizador/a Turismo y Patrimonio Histórico Artístico",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23356"
-    },
-    {
-      "provincia": "Madrid",
-      "ente": "Las Rozas de Madrid",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a de Sanidad de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23357"
-    },
-    {
-      "provincia": "Segovia",
-      "ente": "El Espinar",
-      "plazas": [
-        {
-          "puesto": "3 plazas de Técnico/a de Gestión de Administración General",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23359"
-    },
-    {
-      "provincia": "La Rioja",
-      "ente": "Logroño",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a Superior (Aguas)",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23360"
-    }
-  ],
+  "fecha": "2026-11-08",
+  "estado": "sin_boe",
+  "convocatorias": [],
   "araba": {
     "estado": "sin_boletin"
   }
