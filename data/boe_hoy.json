@@ -1,264 +1,235 @@
 {
-  "fecha": "2026-11-10",
+  "fecha": "2026-11-11",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Valencia",
-      "ente": "Entidad Local Menor de El Perelló",
+      "provincia": "Islas Baleares",
+      "ente": "Ses Salines",
       "plazas": [
         {
-          "puesto": "1 plaza de Conserje polideportivo de la plantilla de personal laboral fijo",
+          "puesto": "2 plazas de Policia Local",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23551"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23625"
     },
     {
-      "provincia": "Tarragona",
-      "ente": "L'Espluga de Francolí",
+      "provincia": "Ávila",
+      "ente": "Mancomunidad Valle Amblés",
       "plazas": [
         {
-          "puesto": "1 plaza de Vigilante municipal",
+          "puesto": "1 plaza de Auxiliar Adminitrativo/a de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23556"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23626"
+    },
+    {
+      "provincia": "Badajoz",
+      "ente": "Castuera",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Auxiliar Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23627"
+    },
+    {
+      "provincia": "Badajoz",
+      "ente": "Castuera",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Encargado/a General de Obras y Servicios",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Personal de Limpieza-Lavandería de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23628"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "Salobreña",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Oficial/a de Servicios Múltiples",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23629"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Meliana",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Asesor/a Jurídico/a de atención primaria, dedicación parcial",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23630"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Guadalcanal",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/Administrativa",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23632"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Meliana",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Profesor/a Inglés Escuela Permanente de Adultos, dedicación parcial, de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23633"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Guadarrama",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Técnicos/as de Administración General",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23634"
+    },
+    {
+      "provincia": "Castellón",
+      "ente": "Soneja",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de la Policía Local",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23635"
     },
     {
       "provincia": "Girona",
-      "ente": "Ribes de Freser",
+      "ente": "Lloret de Mar",
       "plazas": [
         {
-          "puesto": "1 plaza de Coordinador/a de limpieza de la plantilla de personal laboral fijo",
+          "puesto": "6 plazas de Agente de policia local",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23557"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23638"
     },
     {
-      "provincia": "Valencia",
-      "ente": "Alaquàs",
+      "provincia": "Jaén",
+      "ente": "Hinojares",
       "plazas": [
         {
-          "puesto": "1 plaza de Oficial u oficiala de primera Fontanero/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "2 plazas de Oficial u oficiala de primera Polivalente",
-          "sistema": "concurso-oposición",
+          "puesto": "1 plaza de Dinamizador/a de Innovación Local a tiempo parcial de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23558"
-    },
-    {
-      "provincia": "Santa Cruz de Tenerife",
-      "ente": "Los Realejos",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Agente de Empleo y Desarrollo Local",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23559"
-    },
-    {
-      "provincia": "Islas Baleares",
-      "ente": "Calvià",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Delineante",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a en Turismo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Administrativo/a en Turismo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "4 plazas de Informador/a Turístico/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Encargado/a de calidad ambiental",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23560"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23641"
     },
     {
       "provincia": "Barcelona",
-      "ente": "Manresa",
+      "ente": "El Masnou",
       "plazas": [
         {
-          "puesto": "1 plaza de Inspector/a de la Guardia Urbana",
+          "puesto": "1 plaza de Ingeniero/a",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23566"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23642"
     },
     {
-      "provincia": "Barcelona",
-      "ente": "Sant Pere de Ribes",
+      "provincia": "Madrid",
+      "ente": "Getafe",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a de medios de comunicación",
+          "puesto": "1 plaza de Técnico/a Medio/a Enfermero/a del Trabajo de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23567"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23644"
+    },
+    {
+      "provincia": "Lleida",
+      "ente": "Consell Comarcal del Pallars Jussà",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Técnico/a de Servicios Urbanísticos Municipales",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23645"
+    },
+    {
+      "provincia": "Segovia",
+      "ente": "Prádena",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Operario/a Serivicios Múltiples de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23647"
     },
     {
       "provincia": "Cádiz",
-      "ente": "Benalup-Casas Viejas",
+      "ente": "Barbate",
       "plazas": [
         {
-          "puesto": "1 plaza de Administrativo/a departamento de contabilidad y tesorería",
+          "puesto": "3 plazas de Técnico/a Administración General",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23568"
-    },
-    {
-      "provincia": "Barcelona",
-      "ente": "Viladecans",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a especialista dinamización",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "2 plazas de Inspector/a municipal",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23569"
-    },
-    {
-      "provincia": "Gipuzkoa",
-      "ente": "Legazpi",
-      "plazas": [
-        {
-          "puesto": "1 plaza de encargado o encargada de la brigada de obras",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23570"
-    },
-    {
-      "provincia": "Cádiz",
-      "ente": "Benalup-Casas Viejas",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Agentes de la Policía Local",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23571"
-    },
-    {
-      "provincia": "Huelva",
-      "ente": "Almonaster la Real",
-      "plazas": [
-        {
-          "puesto": "3 plazas de Operario/a Obras, Jardines, Limpieza viaria y Salubridad de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23572"
-    },
-    {
-      "provincia": "Zaragoza",
-      "ente": "Tarazona",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Oficial de servicios múltiples de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Oficial de servicios múltiples",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23573"
-    },
-    {
-      "provincia": "Islas Baleares",
-      "ente": "Calvià",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a Prevención de Riesgos",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Educador/a Social",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Arquitecto/a Técnico/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "5 plazas de Operario/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "5 plazas de Operario/a Deportes",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a Administración General",
-          "sistema": "oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "2 plazas de Técnico/a de gestión",
-          "sistema": "oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "3 plazas de Administrativo/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Ordenanza",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23574"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23648"
     }
   ],
   "araba": {
-    "estado": "sin_boletin"
+    "estado": "publicado",
+    "numero": 130,
+    "convocatorias": 0
   }
 }
