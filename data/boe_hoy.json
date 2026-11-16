@@ -1,7 +1,78 @@
 {
   "fecha": "2026-11-16",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Gipuzkoa",
+      "ente": "Donostia/San Sebastián",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Enfermero/a de Empresa",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "4 plazas de Ingeniero/a Técnico/a de Obras Públicas",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23939"
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "ente": "Hernani",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Responsable del Departamento de Servicios Públicos",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23942"
+    },
+    {
+      "provincia": "Zaragoza",
+      "ente": "Villanueva de Gállego",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Conserje colegio público de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23943"
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "ente": "Hernani",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Conserje del Polideportivo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Coordinador-a del centro cultural Kulturarteko Plaza Feminista",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23945"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Cocentaina",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Técnico/a de Administración General",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23947"
+    }
+  ],
   "araba": {
     "estado": "publicado",
     "numero": 132,
