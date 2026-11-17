@@ -1,7 +1,216 @@
 {
   "fecha": "2026-11-17",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Ávila",
+      "ente": "Mancomunidad de Servicios del Alto Tietar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a de base de datos de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24064"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Dénia",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arqueólogo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Psicólogo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24067"
+    },
+    {
+      "provincia": "Lleida",
+      "ente": "Alfarràs",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Alguacil / vigilante municipal",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24068"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Abrera",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de deportes",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24069"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "La Zubia",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24070"
+    },
+    {
+      "provincia": "Tarragona",
+      "ente": "Consejo Comarcal del Montsià",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Psicólogo/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Auxiliar de servicios de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24071"
+    },
+    {
+      "provincia": "Palencia",
+      "ente": "Dueñas",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Oficial de Segunda de Servicios Múltiples y Mantenimiento de edificios de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24073"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Consejo Comarcal del Vallés Oriental",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a superior pedagogo/a del Área de Políticas Sociales e Igualdad de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnic/a superior psicólogo/a del Área de Políticas Sociales e Igualdad de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Trabajador/a social del Área de Políticas Sociales e Igualdad de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Educador/a social del Área de Políticas Sociales e Igualdad de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Administrativo/a del Área de Políticas Sociales e Igualdad de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a superior jurista del Área de Servicios Jurídicos",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24074"
+    },
+    {
+      "provincia": "Badajoz",
+      "ente": "Solana de los Barros",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de Empleo y Desarrollo Local de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24076"
+    },
+    {
+      "provincia": "Zamora",
+      "ente": "Toro",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Oficial primera de obras y servicios múltiples de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24077"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Vilanova del Camí",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Prevención de Riesgos",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24080"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Almensilla",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Auxiliar de Biblioteca de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24081"
+    },
+    {
+      "provincia": "Valladolid",
+      "ente": "Mayorga",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Alguacil",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24083"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "San Sebastián de los Reyes",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Psicólogo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24085"
+    }
+  ],
   "araba": {
     "estado": "sin_boletin"
   }
