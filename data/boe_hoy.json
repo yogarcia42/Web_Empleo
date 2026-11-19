@@ -1,22 +1,46 @@
 {
-  "fecha": "2026-11-18",
+  "fecha": "2026-11-19",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Almería",
-      "ente": "María",
+      "provincia": "Zaragoza",
+      "ente": "Ejea de los Caballeros",
       "plazas": [
         {
-          "puesto": "1 plaza de Administrativo/a",
+          "puesto": "1 plaza de Guarda Montero/a",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24149"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24221"
     },
     {
-      "provincia": "Alicante",
-      "ente": "L'Alfàs del Pi",
+      "provincia": "Castellón",
+      "ente": "Borriana/Burriana",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de igualdad",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24224"
+    },
+    {
+      "provincia": "Salamanca",
+      "ente": "Castellanos de Moriscos",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Encargado/a General",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24227"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "Portillo de Toledo",
       "plazas": [
         {
           "puesto": "1 plaza de Técnico/a de Administración General",
@@ -24,237 +48,102 @@
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24151"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24229"
     },
     {
-      "provincia": "Málaga",
-      "ente": "Estepona",
+      "provincia": "Tarragona",
+      "ente": "Reus",
       "plazas": [
         {
-          "puesto": "1 plaza de Monitor/a Ajedrez",
+          "puesto": "1 plaza de Técnico/a Medio/a Bibliotecario/a de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24153"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24230"
     },
     {
-      "provincia": "Madrid",
-      "ente": "Navalcarnero",
+      "provincia": "Zaragoza",
+      "ente": "Ejea de los Caballeros",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a Informático/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24154"
-    },
-    {
-      "provincia": "Barcelona",
-      "ente": "Castelldefels",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Técnico/a medio/a de contabilidad",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24157"
-    },
-    {
-      "provincia": "Barcelona",
-      "ente": "Castelldefels",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a superior de la sección Jurídico Administrativa",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24158"
-    },
-    {
-      "provincia": "Asturias",
-      "ente": "Oviedo",
-      "plazas": [
-        {
-          "puesto": "3 plazas de Técnico/a de Gestión",
+          "puesto": "1 plaza de Educador/a de Adultos/as Generalista de la plantilla de personal laboral fijo-discontinuo",
           "sistema": "oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24159"
-    },
-    {
-      "provincia": "Sevilla",
-      "ente": "La Puebla de Cazalla",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Arquitecto/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24160"
-    },
-    {
-      "provincia": "Girona",
-      "ente": "Salt",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a medio/a de la Oficina Cultural de la Coma Cros de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24161"
-    },
-    {
-      "provincia": "Córdoba",
-      "ente": "Benamejí",
-      "plazas": [
-        {
-          "puesto": "3 plazas de Limpiador/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24162"
-    },
-    {
-      "provincia": "Murcia",
-      "ente": "Fortuna",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Encargado/a de Biblioteca de la plantilla de personal laboral fijo",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24163"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24232"
     },
     {
       "provincia": "Islas Baleares",
-      "ente": "Consejo Insular de Formentera",
+      "ente": "Consell",
       "plazas": [
         {
-          "puesto": "3 plazas de Ayudante de cocina de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24164"
-    },
-    {
-      "provincia": "Islas Baleares",
-      "ente": "Sant Antoni de Portmany",
-      "plazas": [
-        {
-          "puesto": "5 plazas de Auxiliar Administrativo/a",
+          "puesto": "1 plaza de Trabajador/a Social de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         },
         {
-          "puesto": "2 plazas de Celador/a",
+          "puesto": "1 plaza de Trabajador/a Familiar de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24168"
-    },
-    {
-      "provincia": "Madrid",
-      "ente": "Alpedrete",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Conserje Operario/a de servicios múltiples de la plantilla de personal laboral fijo",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24169"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24233"
     },
     {
       "provincia": "Granada",
-      "ente": "Salobreña",
+      "ente": "Gójar",
       "plazas": [
         {
-          "puesto": "1 plaza de Psicologo/a",
+          "puesto": "1 plaza de oficial electricista de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         },
         {
-          "puesto": "1 plaza de Técnico/a de Inclusión Social",
+          "puesto": "1 plaza de oficial de jardinería de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         },
         {
-          "puesto": "3 plazas de Operario/a",
+          "puesto": "1 plaza de oficial segunda de construcción de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         },
         {
-          "puesto": "1 plaza de Asesor/a Jurídico/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Operio/a de vigilancia del castillo de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Oficial/a Fontanero/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Oficial/a de obras y mantenimiento de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de personal de notificación y conserjería de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24170"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24235"
+    },
+    {
+      "provincia": "Cuenca",
+      "ente": "San Clemente",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Policía Local del Ayuntamiento de San Clemente",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24237"
     },
     {
       "provincia": "Barcelona",
-      "ente": "Viladecans",
+      "ente": "Consejo Comarcal del Vallés Oriental",
       "plazas": [
         {
-          "puesto": "1 plaza de Técnico/a superior informática",
+          "puesto": "1 plaza de Ingeniero/a técnico/a",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24173"
-    },
-    {
-      "provincia": "Valencia",
-      "ente": "Godella",
-      "plazas": [
-        {
-          "puesto": "2 plazas de Psicólogo/a de Servicios Sociales",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "2 plazas de Educador/a social",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Trabajador/a social",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24174"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24238"
     }
   ],
   "araba": {
-    "estado": "publicado",
-    "numero": 133,
-    "convocatorias": 0
+    "estado": "sin_boletin"
   }
 }
