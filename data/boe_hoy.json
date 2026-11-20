@@ -1,7 +1,179 @@
 {
   "fecha": "2026-11-20",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Cáceres",
+      "ente": "Tiétar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a especialista de mantenimiento de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24340"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "Armilla",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de Biblioteca",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Arquitecto/a Técnico/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24341"
+    },
+    {
+      "provincia": "Tarragona",
+      "ente": "Altafulla",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Agente de Policía Local",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24342"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Getafe",
+      "plazas": [
+        {
+          "puesto": "10 plazas de Técnico/a Medio/a Maestro/a de Escuelas Infantiles de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Técnico/a Medio/a Maestro/a de Escuelas Infantiles",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24343"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Getafe",
+      "plazas": [
+        {
+          "puesto": "7 plazas de Coordinadores/as de Cultura de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24344"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "El Viso de San Juan",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345"
+    },
+    {
+      "provincia": "Las Palmas",
+      "ente": "Cabildo Insular de Gran Canaria",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Médico/a de empresa",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24346"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "Pantoja",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24353"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "Madridejos",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Sepulturero/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24354"
+    },
+    {
+      "provincia": "Murcia",
+      "ente": "Jumilla",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "6 plazas de Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24355"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Artés",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Agentes de la Policía local",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24356"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Las Cabezas de San Juan",
+      "plazas": [
+        {
+          "puesto": "5 plazas de Auxiliar de Ayuda a Domicilio de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24357"
+    },
+    {
+      "provincia": "Islas Baleares",
+      "ente": "Capdepera",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Técnico/a Administración General",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24358"
+    }
+  ],
   "araba": {
     "estado": "publicado",
     "numero": 134,
