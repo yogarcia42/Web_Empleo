@@ -1,182 +1,105 @@
 {
-  "fecha": "2026-11-20",
+  "fecha": "2026-11-21",
   "estado": "publicado",
   "convocatorias": [
     {
-      "provincia": "Cáceres",
-      "ente": "Tiétar",
+      "provincia": "Alicante",
+      "ente": "Pego",
       "plazas": [
         {
-          "puesto": "1 plaza de Operario/a especialista de mantenimiento de la plantilla de personal laboral fijo",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24340"
-    },
-    {
-      "provincia": "Granada",
-      "ente": "Armilla",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Técnico/a de Biblioteca",
-          "sistema": "oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Arquitecto/a Técnico/a",
+          "puesto": "1 plaza de Coordinador/a de Deportes del Ayuntamiento de Pego",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24341"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24463"
     },
     {
-      "provincia": "Tarragona",
-      "ente": "Altafulla",
+      "provincia": "Santa Cruz de Tenerife",
+      "ente": "Cabildo Insular de Tenerife",
       "plazas": [
         {
-          "puesto": "1 plaza de Agente de Policía Local",
+          "puesto": "5 plazas de Técnico/a de Relaciones Laborales",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24342"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24464"
     },
     {
-      "provincia": "Madrid",
-      "ente": "Getafe",
+      "provincia": "Alicante",
+      "ente": "Dénia",
       "plazas": [
         {
-          "puesto": "10 plazas de Técnico/a Medio/a Maestro/a de Escuelas Infantiles de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "1 plaza de Técnico/a Medio/a Maestro/a de Escuelas Infantiles",
+          "puesto": "1 plaza de Oficial/a de Primera de Jardinería de la plantilla de personal laboral fijo",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24343"
-    },
-    {
-      "provincia": "Madrid",
-      "ente": "Getafe",
-      "plazas": [
-        {
-          "puesto": "7 plazas de Coordinadores/as de Cultura de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24344"
-    },
-    {
-      "provincia": "Toledo",
-      "ente": "El Viso de San Juan",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Auxiliar administrativo/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345"
-    },
-    {
-      "provincia": "Las Palmas",
-      "ente": "Cabildo Insular de Gran Canaria",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Médico/a de empresa",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24346"
-    },
-    {
-      "provincia": "Toledo",
-      "ente": "Pantoja",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Auxiliar Administrativo/a de la plantilla de personal laboral fijo",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24353"
-    },
-    {
-      "provincia": "Toledo",
-      "ente": "Madridejos",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Sepulturero/a",
-          "sistema": "concurso-oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24354"
-    },
-    {
-      "provincia": "Murcia",
-      "ente": "Jumilla",
-      "plazas": [
-        {
-          "puesto": "1 plaza de Arquitecto/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        },
-        {
-          "puesto": "6 plazas de Administrativo/a",
-          "sistema": "oposición",
-          "turno": "libre"
-        }
-      ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24355"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24465"
     },
     {
       "provincia": "Barcelona",
-      "ente": "Artés",
+      "ente": "Vic",
       "plazas": [
         {
-          "puesto": "2 plazas de Agentes de la Policía local",
+          "puesto": "1 plaza de Técnico/a medio/a de gestión",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24356"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24466"
     },
     {
-      "provincia": "Sevilla",
-      "ente": "Las Cabezas de San Juan",
+      "provincia": "Madrid",
+      "ente": "Navalcarnero",
       "plazas": [
         {
-          "puesto": "5 plazas de Auxiliar de Ayuda a Domicilio de la plantilla de personal laboral fijo",
+          "puesto": "1 plaza de Inspector/a de Medio Ambiente",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24357"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24468"
     },
     {
-      "provincia": "Islas Baleares",
-      "ente": "Capdepera",
+      "provincia": "Pontevedra",
+      "ente": "Portas",
       "plazas": [
         {
-          "puesto": "3 plazas de Técnico/a Administración General",
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24470"
+    },
+    {
+      "provincia": "Albacete",
+      "ente": "Liétor",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Guardia Urbano/a",
           "sistema": "concurso-oposición",
           "turno": "libre"
         }
       ],
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24358"
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24472"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Alzira",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a Superior",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24473"
     }
   ],
   "araba": {
-    "estado": "publicado",
-    "numero": 134,
-    "convocatorias": 0
+    "estado": "sin_boletin"
   }
 }
