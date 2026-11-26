@@ -1,7 +1,212 @@
 {
   "fecha": "2026-11-26",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Valencia",
+      "ente": "Bétera",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Psicólogo/a Intervención Social",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24857"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Vic",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Oficial Lampista",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24858"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Olesa de Bonesvalls",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a Tècnico/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24859"
+    },
+    {
+      "provincia": "Valencia",
+      "ente": "Benifaió",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24861"
+    },
+    {
+      "provincia": "Almería",
+      "ente": "El Ejido",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a Caminos Canales y Puertos",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24862"
+    },
+    {
+      "provincia": "Badajoz",
+      "ente": "Montijo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Informático/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24863"
+    },
+    {
+      "provincia": "Almería",
+      "ente": "El Ejido",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Monitor/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24864"
+    },
+    {
+      "provincia": "Valladolid",
+      "ente": "Mayorga",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Recaudador/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24865"
+    },
+    {
+      "provincia": "A Coruña",
+      "ente": "Ferrol",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a técnico/a de obras públicas",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24867"
+    },
+    {
+      "provincia": "Girona",
+      "ente": "Roses",
+      "plazas": [
+        {
+          "puesto": "4 plazas de Agente de la Policía Local",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24868"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Olesa de Bonesvalls",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Arquitecto/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24869"
+    },
+    {
+      "provincia": "Girona",
+      "ente": "Alp",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24871"
+    },
+    {
+      "provincia": "Barcelona",
+      "ente": "Consejo Comarcal del Vallés Occidental",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Técnico/a superior en derecho",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24873"
+    },
+    {
+      "provincia": "A Coruña",
+      "ente": "Arteixo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnica/o de Administracion Especial",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24874"
+    },
+    {
+      "provincia": "Girona",
+      "ente": "Salt",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Técnico/a de sonido, luz y audiovisual de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24875"
+    },
+    {
+      "provincia": "Zaragoza",
+      "ente": "Utebo",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Peon/a Mantenimiento",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24876"
+    },
+    {
+      "provincia": "Alicante",
+      "ente": "Almoradí",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24877"
+    }
+  ],
   "araba": {
     "estado": "sin_boletin"
   }
