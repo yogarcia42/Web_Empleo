@@ -1,7 +1,162 @@
 {
   "fecha": "2026-11-28",
-  "estado": "sin_boe",
-  "convocatorias": [],
+  "estado": "publicado",
+  "convocatorias": [
+    {
+      "provincia": "Zamora",
+      "ente": "Cubillos",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a de Limpieza de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25043"
+    },
+    {
+      "provincia": "Cáceres",
+      "ente": "Peraleda de la Mata",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25044"
+    },
+    {
+      "provincia": "Asturias",
+      "ente": "Llanera",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar de Biblioteca de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Trabajador/a Social de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        },
+        {
+          "puesto": "1 plaza de Ingeniero/a (área industrial)",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25046"
+    },
+    {
+      "provincia": "Murcia",
+      "ente": "Mancomunidad de Servicios de la Comarca del Noroeste",
+      "plazas": [
+        {
+          "puesto": "3 plazas de Trabajador/a Social de la plantilla de personal laboral fijo",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25047"
+    },
+    {
+      "provincia": "Sevilla",
+      "ente": "Constantina",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Auxiliar Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25048"
+    },
+    {
+      "provincia": "Segovia",
+      "ente": "Santa María la Real de Nieva",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Operario/a de servicios múltiples de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25049"
+    },
+    {
+      "provincia": "Huesca",
+      "ente": "Tamarite de Litera",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25050"
+    },
+    {
+      "provincia": "Málaga",
+      "ente": "Ronda",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Conserje de la plantilla de personal laboral fijo",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25052"
+    },
+    {
+      "provincia": "Toledo",
+      "ente": "Navahermosa",
+      "plazas": [
+        {
+          "puesto": "2 plazas de Administrativo/a",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25053"
+    },
+    {
+      "provincia": "Granada",
+      "ente": "Almuñécar",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a Técnico/a Industrial",
+          "sistema": "concurso-oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25054"
+    },
+    {
+      "provincia": "Murcia",
+      "ente": "Librilla",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Auxiliar Administrativo/a",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25055"
+    },
+    {
+      "provincia": "Madrid",
+      "ente": "Colmenar Viejo",
+      "plazas": [
+        {
+          "puesto": "1 plaza de Ingeniero/a de Caminos, Canales y Puertos",
+          "sistema": "oposición",
+          "turno": "libre"
+        }
+      ],
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25056"
+    }
+  ],
   "araba": {
     "estado": "sin_boletin"
   }
